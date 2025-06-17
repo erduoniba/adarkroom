@@ -8,9 +8,14 @@
   "license": "MPL-2.0",
   "scripts": {
     "start": "node dev-server.js",
-    "update_pot": "pybabel extract -F lang/babel.cfg -c \"TRANSLATORS\" script -o lang/adarkroom.pot"
+    "update_pot": "pybabel extract -F lang/babel.cfg -c \"TRANSLATORS\" script -o lang/adarkroom.pot",
+    "build:zip": "node tools/zip-game.js",
+    "translate": "python3 tools/po2js.py ./lang/*/strings.po"
   },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "archiver": "^5.3.1"
   }
 }

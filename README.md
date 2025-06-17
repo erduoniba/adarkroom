@@ -45,3 +45,45 @@ or play the latest on [GitHub](http://doublespeakgames.github.io/adarkroom)
 <a href="https://itunes.apple.com/us/app/a-dark-room/id736683061"><img src="http://i.imgur.com/DMdnDYq.png" height="50"></a>
 <a href="https://play.google.com/store/apps/details?id=com.yourcompany.adarkroom"><img src="http://i.imgur.com/bLWWj4r.png" height="50"></a>
 <a href="https://store.steampowered.com/app/2460660/A_Dark_Room/"><img src="https://i.imgur.com/yz6cnU0.png" height="50"></a>
+
+## Development Setup
+
+### Prerequisites
+- Node.js
+- Python 3
+- pip (Python package manager)
+
+### Installation
+1. Clone the repository
+2. Install Node.js dependencies:
+```bash
+npm install
+```
+3. Install Python dependencies:
+```bash
+python3 -m venv venv
+✗ source venv/bin/activate
+✗ pip install -r requirements.txt
+```
+
+### Development Server
+To start the development server:
+```bash
+npm start
+```
+
+### Translation
+The game supports multiple languages. Translation files are stored in the `lang` directory.
+
+#### Translation Workflow
+1. Update translation template (POT file):
+```bash
+npm run update_pot
+```
+
+2. Convert PO files to JS (after updating translations):
+```bash
+npm run translate
+```
+
+This will convert all .po files in the lang directory to their corresponding .js files.

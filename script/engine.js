@@ -91,11 +91,7 @@
         window.location = 'browserWarning.html';
       }
 
-      // Check for mobile
-      if(Engine.isMobile()) {
-        window.location = 'mobileWarning.html';
-      }
-
+      // Check for mobile (no longer redirecting)
       Engine.disableSelection();
 
       if(this.options.state != null) {
@@ -130,7 +126,7 @@
         var optionsList = $('<ul>')
           .appendTo(selectOptions);
         $('<li>')
-          .text("language.")
+          .text(_("language."))
           .appendTo(optionsList);
 
         $.each(langs, function(name,display){
@@ -146,12 +142,6 @@
         .addClass('volume menuBtn')
         .text(_('sound on.'))
         .click(() => Engine.toggleVolume())
-        .appendTo(menu);
-
-      $('<span>')
-        .addClass('appStore menuBtn')
-        .text(_('get the app.'))
-        .click(Engine.getApp)
         .appendTo(menu);
 
       $('<span>')
@@ -193,12 +183,6 @@
           .click(Engine.Dropbox.startDropbox)
           .appendTo(menu);
       }
-
-      $('<span>')
-        .addClass('menuBtn')
-        .text(_('github.'))
-        .click(function() { window.open('https://github.com/doublespeakgames/adarkroom'); })
-        .appendTo(menu);
 
       // Register keypress handlers
       $('body').off('keydown').keydown(Engine.keyDown);
