@@ -432,10 +432,11 @@ div.tooltip:hover {
 .eventPanel {
 	background: none repeat scroll 0 0 white;
 	border: 2px solid transparent;
-	left: 250px;
 	padding: 20px;
-	position: absolute;
-	top: 90px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	width: 335px;
 	z-index: 20;
 }

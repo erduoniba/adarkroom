@@ -115,28 +115,28 @@
         .addClass('menu')
         .appendTo('body');
 
-      if(typeof langs != 'undefined'){
-        var customSelect = $('<span>')
-          .addClass('customSelect')
-          .addClass('menuBtn')
-          .appendTo(menu);
-        var selectOptions = $('<span>')
-          .addClass('customSelectOptions')
-          .appendTo(customSelect);
-        var optionsList = $('<ul>')
-          .appendTo(selectOptions);
-        $('<li>')
-          .text(_("language."))
-          .appendTo(optionsList);
+      // if(typeof langs != 'undefined'){
+      //   var customSelect = $('<span>')
+      //     .addClass('customSelect')
+      //     .addClass('menuBtn')
+      //     .appendTo(menu);
+      //   var selectOptions = $('<span>')
+      //     .addClass('customSelectOptions')
+      //     .appendTo(customSelect);
+      //   var optionsList = $('<ul>')
+      //     .appendTo(selectOptions);
+      //   $('<li>')
+      //     .text(_("language."))
+      //     .appendTo(optionsList);
 
-        $.each(langs, function(name,display){
-          $('<li>')
-            .text(display)
-            .attr('data-language', name)
-            .on("click", function() { Engine.switchLanguage(this); })
-            .appendTo(optionsList);
-        });
-      }
+      //   $.each(langs, function(name,display){
+      //     $('<li>')
+      //       .text(display)
+      //       .attr('data-language', name)
+      //       .on("click", function() { Engine.switchLanguage(this); })
+      //       .appendTo(optionsList);
+      //   });
+      // }
 
       $('<span>')
         .addClass('volume menuBtn')
@@ -162,11 +162,11 @@
         .click(Engine.confirmDelete)
         .appendTo(menu);
 
-      $('<span>')
-        .addClass('menuBtn')
-        .text(_('share.'))
-        .click(Engine.share)
-        .appendTo(menu);
+      // $('<span>')
+      //   .addClass('menuBtn')
+      //   .text(_('share.'))
+      //   .click(Engine.share)
+      //   .appendTo(menu);
 
       $('<span>')
         .addClass('menuBtn')
@@ -282,78 +282,98 @@
     },
 
     exportImport: function() {
-      Events.startEvent({
-        title: _('Export / Import'),
-        scenes: {
-          start: {
-            text: [
-              _('export or import save data, for backing up'),
-              _('or migrating computers')
-            ],
-            buttons: {
-              'export': {
-                text: _('export'),
-                nextScene: {1: 'inputExport'}
-              },
-              'import': {
-                text: _('import'),
-                nextScene: {1: 'confirm'}
-              },
-              'cancel': {
-                text: _('cancel'),
-                nextScene: 'end'
+        // 禁止页面滚动
+        Engine._previousBodyOverflow = document.body.style.overflow;
+        document.body.style.overflow = 'hidden';
+      
+        Events.startEvent({
+          title: _('Export / Import'),
+          scenes: {
+            start: {
+              text: [
+                _('export or import save data, for backing up'),
+                _('or migrating computers')
+              ],
+              buttons: {
+                'export': {
+                  text: _('export'),
+                  nextScene: {1: 'inputExport'}
+                },
+                'import': {
+                  text: _('import'),
+                  nextScene: {1: 'confirm'}
+                },
+                'cancel': {
+                  text: _('cancel'),
+                  nextScene: 'end',
+                  onChoose: function() {
+                    // 恢复页面滚动
+                    document.body.style.overflow = Engine._previousBodyOverflow || '';
+                  }
+                }
               }
-            }
-          },
-          'inputExport': {
-            text: [_('save this.')],
-            textarea: Engine.export64(),
-            onLoad: function() { Engine.event('progress', 'export'); },
-            readonly: true,
-            buttons: {
-              'done': {
-                text: _('got it'),
-                nextScene: 'end',
-                onChoose: Engine.disableSelection
+            },
+            'inputExport': {
+              text: [_('save this.')],
+              textarea: Engine.export64(),
+              onLoad: function() { Engine.event('progress', 'export'); },
+              readonly: true,
+              buttons: {
+                'done': {
+                  text: _('got it'),
+                  nextScene: 'end',
+                  onChoose: function() {
+                    Engine.disableSelection();
+                    // 恢复页面滚动
+                    document.body.style.overflow = Engine._previousBodyOverflow || '';
+                  }
+                }
               }
-            }
-          },
-          'confirm': {
-            text: [
-              _('are you sure?'),
-              _('if the code is invalid, all data will be lost.'),
-              _('this is irreversible.')
-            ],
-            buttons: {
-              'yes': {
-                text: _('yes'),
-                nextScene: {1: 'inputImport'},
-                onChoose: Engine.enableSelection
-              },
-              'no': {
-                text: _('no'),
-                nextScene: {1: 'start'}
+            },
+            'confirm': {
+              text: [
+                _('are you sure?'),
+                _('if the code is invalid, all data will be lost.'),
+                _('this is irreversible.')
+              ],
+              buttons: {
+                'yes': {
+                  text: _('yes'),
+                  nextScene: {1: 'inputImport'},
+                  onChoose: Engine.enableSelection
+                },
+                'no': {
+                  text: _('no'),
+                  nextScene: {1: 'start'}
+                }
               }
-            }
-          },
-          'inputImport': {
-            text: [_('put the save code here.')],
-            textarea: '',
-            buttons: {
-              'okay': {
-                text: _('import'),
-                nextScene: 'end',
-                onChoose: Engine.import64
-              },
-              'cancel': {
-                text: _('cancel'),
-                nextScene: 'end'
+            },
+            'inputImport': {
+              text: [_('put the save code here.')],
+              textarea: '',
+              buttons: {
+                'okay': {
+                  text: _('import'),
+                  nextScene: 'end',
+                  onChoose: function() {
+                    Engine.import64(this.previousSibling.value);
+                    // 恢复页面滚动
+                    document.body.style.overflow = Engine._previousBodyOverflow || '';
+                  }
+                },
+                'cancel': {
+                  text: _('cancel'),
+                  nextScene: 'end',
+                  onChoose: function() {
+                    // 恢复页面滚动
+                    document.body.style.overflow = Engine._previousBodyOverflow || '';
+                  }
+                }
               }
             }
           }
-        }
-      });
-    },
+        });
+      },
 
     generateExport64: function(){
       var string64 = Base64.encode(localStorage.gameState);

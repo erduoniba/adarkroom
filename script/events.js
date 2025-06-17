@@ -1430,6 +1430,11 @@ var Events = {
 			if (Events.BLINK_INTERVAL) {
 				Events.stopTitleBlink();
 			}
+			// 恢复页面滚动
+			if(Engine._previousBodyOverflow !== undefined) {
+				document.body.style.overflow = Engine._previousBodyOverflow || '';
+				delete Engine._previousBodyOverflow;
+			}
 			// Force refocus on the body. I hate you, IE.
 			$('body').focus();
 		});
