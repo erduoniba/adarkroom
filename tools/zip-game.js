@@ -57,12 +57,9 @@ archive.pipe(output);
 // 要打包的目录和文件列表
 const filesToAdd = [
   { source: 'index.html', name: 'index.html' },
-  { source: 'browserWarning.html', name: 'browserWarning.html' },
-  { source: 'mobileWarning.html', name: 'mobileWarning.html' },
   { source: 'favicon.ico', name: 'favicon.ico' },
   { dir: 'css', name: 'css' },
   { dir: 'script', name: 'script' },
-  { dir: 'img', name: 'img' },
   { dir: 'lib', name: 'lib' },
   { dir: 'lang', name: 'lang' },
   { dir: 'audio', name: 'audio' }
