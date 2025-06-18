@@ -63,7 +63,7 @@ var Notifications = {
 	printMessage: function(t) {
 		var text = $('<div>').addClass('notification').css({
 			'opacity': '0',
-			'font-size': '0.6em'  // 减小字体大小
+			'font-size': '0.9em'  // 减小字体大小
 		}).text(t).prependTo('div#notifications');
 		Notifications.showCenterToast(t);
 		text.animate({opacity: 1}, 500, 'linear', function() {
@@ -107,7 +107,7 @@ var Notifications = {
 			.css({
 				'background-color': 'rgba(0, 0, 0, 0.5)',
 				'color': 'white',
-				'font-size': '0.85em',
+				'font-size': '0.9em',
 				'padding': '10px 10px',
 				'border-radius': '5px',
 				'opacity': '0',
