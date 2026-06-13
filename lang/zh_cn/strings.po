@@ -4506,3 +4506,11 @@ msgstr "是时候采摘它们了"
 
 #~ msgid "use with laser rifle"
 #~ msgstr "激光步枪"
+
+#: script/room.js
+msgid "head throbbing. vision blurry. the temple is dark and cold."
+msgstr "头痛欲裂，眼前一片模糊。破庙中漆黑冰冷。"
+
+#: script/room.js
+msgid "maybe you should light the fire to keep warm."
+msgstr "也许应该先生一堆火取暖。"

@@ -1,6 +1,6 @@
 .button{width: 100px !important;}
 #outsidePanel .button{width: 115px !important;}
-.eventPanel .button {width: 122px !important;}
+.eventPanel .button {min-width: 80px;}
 
 /* ========== 古风配色 ========== */
 body {

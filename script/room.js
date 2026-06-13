@@ -509,10 +509,12 @@ var Room = {
 		if (typeof $SM.get('features.location.room') == 'undefined') {
 			$SM.set('features.location.room', true);
 			$SM.set('game.builder.level', -1);
+			// 武侠开局：给予初始银两，让玩家能立即生火
+			$SM.set('stores.wood', 5);
 		}
 
-		// If this is the first time playing, the fire is dead and it's freezing. 
-		// Otherwise grab past save state temp and fire level.
+		// 记录是否首次进入（用于开局叙事）
+		var isFirstVisit = !$SM.get('game.temperature.value');
 		$SM.set('game.temperature', $SM.get('game.temperature.value') === undefined ? this.TempEnum.Freezing : $SM.get('game.temperature'));
 		$SM.set('game.fire', $SM.get('game.fire.value') === undefined ? this.FireEnum.Dead : $SM.get('game.fire'));
 
@@ -572,10 +574,21 @@ var Room = {
 		if ($SM.get('game.builder.level') >= 0 && $SM.get('game.builder.level') < 3) {
 			Room._builderTimer = Engine.setTimeout(Room.updateBuilderState, Room._BUILDER_STATE_DELAY);
 		}
-		if ($SM.get('game.builder.level') == 1 && $SM.get('stores.wood', true) < 0) {
+		// 当前辈出现后，解锁庙外
+		if ($SM.get('game.builder.level') == 1) {
 			Engine.setTimeout(Room.unlockForest, Room._NEED_WOOD_DELAY);
 		}
 		Engine.setTimeout($SM.collectIncome, 1000);
+
+		// 开局叙事
+		if (isFirstVisit) {
+			Notifications.notify(Room, _("head throbbing. vision blurry. the temple is dark and cold."));
+			Engine.setTimeout(function() {
+				if ($SM.get('game.fire.value') < 1) {
+					Notifications.notify(Room, _("maybe you should light the fire to keep warm."));
+				}
+			}, 8000);
+		}
 
 		Notifications.notify(Room, _("the room is {0}", Room.TempEnum.fromInt($SM.get('game.temperature.value')).text));
 		Notifications.notify(Room, _("the fire is {0}", Room.FireEnum.fromInt($SM.get('game.fire.value')).text));

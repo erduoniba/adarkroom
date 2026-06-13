@@ -431,7 +431,7 @@ div.tooltip:hover {
 
 /* Events */
 
-/* 弹窗遮罩：全屏 flex 居中容器 */
+/* 弹窗遮罩：全屏半透明背景 */
 #eventMask {
 	position: fixed;
 	top: 0;
@@ -440,12 +440,8 @@ div.tooltip:hover {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
 	z-index: 19;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	opacity: 0;
 	pointer-events: none;
-	transition: opacity 0.2s;
 }
 
 #eventMask.show {
@@ -456,47 +452,18 @@ div.tooltip:hover {
 .eventPanel {
 	background: none repeat scroll 0 0 #f5f0e8;
 	padding: 30px 20px 20px 20px;
-	position: relative;
+	position: fixed;
 	width: 420px;
 	max-width: 90vw;
 	max-height: 85vh;
 	overflow-y: auto;
+	z-index: 20;
 	font-size: 16px;
+	text-align: center;
+	/* left 和 top 由 JS 动态计算 */
 }
 
-body.noMask .eventPanel {
-	background-color: black;
-}
-
-.eventPanel:after {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	content: " ";
-	border: 2px solid #8b7355;
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-	z-index: -2;
-	pointer-events: none;
-	box-sizing: border-box;
-}
-
-body.noMask .eventPanel:after {
-	border-color: white;
-}
-
-.eventPanel .button {
-	float:left;
-	margin-right: 20px;
-}
-
-body.noMask .eventPanel .button {
-	border-color: white;
-	color: white;
-}
-
-/* 标题：放在面板内部顶部，不用 absolute 避免被裁剪 */
+/* 标题 */
 .eventTitle {
 	font-weight: bold;
 	font-size: 16px;
@@ -505,17 +472,55 @@ body.noMask .eventPanel .button {
 	border-bottom: 1px solid #8b7355;
 }
 
+/* 描述文字 */
+#description {
+	position: relative;
+	min-height: 30px;
+	max-height: 50vh;
+	overflow-y: auto;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+/* 按钮区：居中并排 */
+#exitButtons {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+}
+
+#exitButtons .button {
+	float: none;
+	margin: 0;
+}
+
+/* 暗色模式 */
+body.noMask .eventPanel {
+	background-color: black;
+}
 body.noMask .eventTitle {
 	color: white;
 	border-bottom-color: #888;
 }
+body.noMask .eventPanel .button {
+	border-color: white;
+	color: white;
+}
 
-/* 内容区域滚动 */
-#description {
-	position: relative;
-	min-height: 40px;
-	max-height: 50vh;
-	overflow-y: auto;
+/* 面板边框装饰 */
+.eventPanel:after {
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%; height: 100%;
+	content: " ";
+	border: 2px solid #8b7355;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	z-index: -2;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+body.noMask .eventPanel:after {
+	border-color: white;
 }
 
 #description textarea {

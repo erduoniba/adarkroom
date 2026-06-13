@@ -128,6 +128,11 @@ var Outside = {
 	],
 	
 	init: function(options) {
+		// 防重复初始化
+		if (this._initialized) return;
+		this._initialized = true;
+
+
 		this.options = $.extend(
 			this.options,
 			options

@@ -1403,8 +1403,12 @@ var Events = {
 		$('<div>').attr('id', 'description').appendTo(Events.eventPanel());
 		$('<div>').attr('id', 'buttons').appendTo(Events.eventPanel());
 		Events.loadScene('start');
-		$('#eventMask').append(Events.eventPanel());
-		Events.eventPanel().animate({opacity: 1}, Events._PANEL_FADE, 'linear');
+		$('body').append(Events.eventPanel());
+		// JS 动态居中（兼容所有浏览器，不依赖 CSS transform）
+		var panel = Events.eventPanel();
+		panel.css('left', Math.max(0, (window.innerWidth - panel.outerWidth()) / 2) + 'px');
+		panel.css('top', Math.max(10, (window.innerHeight - panel.outerHeight()) / 2) + 'px');
+		panel.animate({opacity: 1}, Events._PANEL_FADE, 'linear');
 		var currentSceneInformation = Events.activeEvent().scenes[Events.activeScene];
 		if (currentSceneInformation.blink) {
 			Events.blinkTitle();
