@@ -1,3 +1,103 @@
 .button{width: 100px !important;}
 #outsidePanel .button{width: 115px !important;}
 .eventPanel .button {width: 122px !important;}
+
+/* ========== 古风配色 ========== */
+body {
+	background-color: #f5f0e8;
+	color: #2c1810;
+}
+
+div#header {
+	background-color: #8b0000;
+}
+
+div.headerButton {
+	color: #f5f0e8;
+}
+
+div.headerButton:hover {
+	color: #ffd700;
+}
+
+div.headerButton.selected {
+	color: #ffd700;
+}
+
+#notifications {
+	color: #4a3728;
+}
+
+.notification {
+	color: #4a3728 !important;
+}
+
+/* 通知渐隐效果 */
+div#notifyGradient {
+	background-color: #f5f0e8;
+	background: -webkit-linear-gradient(rgba(245, 240, 232, 0) 0%, rgba(245, 240, 232, 1) 100%);
+	background: linear-gradient(rgba(245, 240, 232, 0) 0%, rgba(245, 240, 232, 1) 100%);
+}
+
+div#saveNotify {
+	background: #f5f0e8;
+}
+
+/* 事件弹窗 */
+.eventPanel {
+	background-color: #f5f0e8;
+}
+
+.eventTitle {
+	color: #8b0000;
+	border-bottom-color: #8b7355;
+}
+
+div#storesContainer, #weapons {
+	background-color: #ebe5d9;
+}
+
+div#stores:before, div#weapons:before, div#village:before {
+	background: #ebe5d9;
+}
+
+div#population {
+	background-color: #ebe5d9;
+}
+
+div.button {
+	border: 1px solid #8b7355;
+	background-color: #d4c5a9;
+	color: #2c1810;
+}
+
+div.button:hover:not(.disabled) {
+	background-color: #c4a87c;
+	border-color: #8b0000;
+}
+
+div.button.disabled, div.button.disabled:hover {
+	border-color: #c4b99a;
+	color: #a09080;
+}
+
+div.button div.cooldown {
+	background-color: #c4b99a;
+}
+
+div.tooltip {
+	background: #f5f0e8;
+	border-color: #8b7355;
+}
+
+#dropMenu {
+	background: #f5f0e8;
+}
+
+div#village {
+	background-color: #ebe5d9;
+}
+
+#map {
+	background-color: #e8e0d0;
+}

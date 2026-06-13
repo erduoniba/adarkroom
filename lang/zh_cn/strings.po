@@ -19,11 +19,11 @@ msgstr ""
 
 #: script/dropbox.js:62
 msgid "Dropbox connection"
-msgstr "dropbox连接"
+msgstr "云端存档连接"
 
 #: script/dropbox.js:65
 msgid "connect game to dropbox local storage"
-msgstr "连接到dropbox云存储"
+msgstr "连接到云端存储"
 
 #: script/dropbox.js:68
 msgid "connect"
@@ -36,11 +36,11 @@ msgstr "取消"
 
 #: script/dropbox.js:86 script/dropbox.js:176
 msgid "Dropbox Export / Import"
-msgstr "dropbox导出/导入"
+msgstr "云端存档导出/导入"
 
 #: script/dropbox.js:89
 msgid "export or import save data to dropbox datastorage"
-msgstr "导出或导入存档文件到dropbox"
+msgstr "导出或导入存档文件到云端"
 
 #: script/dropbox.js:90
 msgid "your are connected to dropbox with account / email "
@@ -76,11 +76,11 @@ msgstr "加载"
 
 #: script/dropbox.js:179
 msgid "successfully saved to dropbox datastorage"
-msgstr "成功保存到dropbox"
+msgstr "成功保存到云端"
 
 #: script/dropbox.js:180
 msgid "error while saving to dropbox datastorage"
-msgstr "保存到dropbox出错"
+msgstr "保存到云端出错"
 
 #: script/dropbox.js:183
 msgid "ok"
@@ -88,103 +88,103 @@ msgstr "确认"
 
 #: script/engine.js:15
 msgid "boxer"
-msgstr "拳击手"
+msgstr "拳法入门"
 
 #: script/engine.js:16
 msgid "punches do more damage"
-msgstr "徒手伤害翻倍"
+msgstr "拳掌伤害提升"
 
 #: script/engine.js:18
 msgid "learned to throw punches with purpose"
-msgstr "学会了有意识地出拳"
+msgstr "初窥拳法门径，出拳有了章法"
 
 #: script/engine.js:21
 msgid "martial artist"
-msgstr "武斗家"
+msgstr "拳法精通"
 
 #: script/engine.js:22
 msgid "punches do even more damage."
-msgstr "徒手造成更多的伤害"
+msgstr "拳掌伤害更大"
 
 #: script/engine.js:23
 msgid "learned to fight quite effectively without weapons"
-msgstr "学会了高效率的徒手搏击"
+msgstr "拳法日益精进，赤手空拳也能御敌"
 
 #: script/engine.js:27
 msgid "unarmed master"
-msgstr "徒手宗师"
+msgstr "拳法大成"
 
 #: script/engine.js:28
 msgid "punch twice as fast, and with even more force"
-msgstr "出拳速度翻倍，力道也更大"
+msgstr "拳速倍增，劲力更猛"
 
 #: script/engine.js:29
 msgid "learned to strike faster without weapons"
-msgstr "学会了如何更快速地出拳"
+msgstr "拳法已臻化境，出招如电"
 
 #: script/engine.js:32
 msgid "barbarian"
-msgstr "野蛮人"
+msgstr "重剑无锋"
 
 #: script/engine.js:33
 msgid "melee weapons deal more damage"
-msgstr "近战武器造成更高伤害"
+msgstr "兵器伤害更高"
 
 #: script/engine.js:34
 msgid "learned to swing weapons with force"
-msgstr "学会了如何发挥劲力，挥舞武器"
+msgstr "领悟重剑无锋、大巧不工之道"
 
 #: script/engine.js:37
 msgid "slow metabolism"
-msgstr "减缓代谢"
+msgstr "龟息功"
 
 #: script/engine.js:38
 msgid "go twice as far without eating"
-msgstr "不吃东西能坚持走的距离翻倍"
+msgstr "行走更远而无需进食"
 
 #: script/engine.js:39
 msgid "learned how to ignore the hunger"
-msgstr "学会如何忍饥挨饿"
+msgstr "习得龟息之法，可忍饥挨饿"
 
 #: script/engine.js:42
 msgid "desert rat"
-msgstr "荒漠跳鼠"
+msgstr "寒冰真气"
 
 #: script/engine.js:43
 msgid "go twice as far without drinking"
-msgstr "不喝水能坚持走的距离翻倍"
+msgstr "行走更远而无需饮水"
 
 #: script/engine.js:44
 msgid "learned to love the dry air"
-msgstr "无畏干燥"
+msgstr "寒冰真气护体，不惧干渴"
 
 #: script/engine.js:47
 msgid "evasive"
-msgstr "避实就虚"
+msgstr "凌波微步"
 
 #: script/engine.js:48
 msgid "dodge attacks more effectively"
-msgstr "更有效的闪避攻击"
+msgstr "闪避更加灵活"
 
 #: script/engine.js:49
 msgid "learned to be where they're not"
-msgstr "学会了闪避攻击"
+msgstr "步法飘忽，如凌波而行"
 
 #: script/engine.js:52
 msgid "precise"
-msgstr "精密"
+msgstr "独孤九剑"
 
 #: script/engine.js:53
 msgid "land blows more often"
-msgstr "命中率提高"
+msgstr "攻击更加精准"
 
 #: script/engine.js:54
 msgid "learned to predict their movement"
-msgstr "学会预判他人的动作"
+msgstr "料敌机先，后发先至"
 
 #: script/engine.js:57
 msgid "scout"
-msgstr "侦查术"
+msgstr "天眼通"
 
 #: script/engine.js:58
 msgid "see farther"
@@ -192,23 +192,23 @@ msgstr "看得更远"
 
 #: script/engine.js:59
 msgid "learned to look ahead"
-msgstr "强化视野"
+msgstr "目力大增，洞察远方"
 
 #: script/engine.js:62
 msgid "stealthy"
-msgstr "潜行"
+msgstr "踏雪无痕"
 
 #: script/engine.js:63
 msgid "better avoid conflict in the wild"
-msgstr "更好地回避荒野中的冲突"
+msgstr "在野外更好地避开战斗"
 
 #: script/engine.js:64
 msgid "learned how not to be seen"
-msgstr "学会了隐匿身形"
+msgstr "踏雪无痕，来去无踪"
 
 #: script/engine.js:67
 msgid "gastronome"
-msgstr "美食家"
+msgstr "北冥神功"
 
 #: script/engine.js:68
 msgid "restore more health when eating"
@@ -216,15 +216,15 @@ msgstr "进食恢复更多生命"
 
 #: script/engine.js:69
 msgid "learned to make the most of food"
-msgstr "学会充分消化食物"
+msgstr "以真气化为生机，丹药效力倍增"
 
 #: script/engine.js:143 script/engine.js:808
 msgid "sound on."
-msgstr "声音开"
+msgstr "打开声音"
 
 #: script/engine.js:149 script/engine.js:534
 msgid "lights off."
-msgstr "夜间模式"
+msgstr "熄灯"
 
 #: script/engine.js:155 script/engine.js:570
 msgid "hyper."
@@ -232,7 +232,7 @@ msgstr "加速"
 
 #: script/engine.js:161 script/space.js:536
 msgid "restart."
-msgstr "重启"
+msgstr "重来"
 
 #: script/engine.js:167
 msgid "share."
@@ -240,15 +240,15 @@ msgstr "分享"
 
 #: script/engine.js:173
 msgid "save."
-msgstr "保存"
+msgstr "存档"
 
 #: script/engine.js:173
 msgid "language."
-msgstr "切换语言"
+msgstr "语言"
 
 #: script/engine.js:182
 msgid "dropbox."
-msgstr "dropbox"
+msgstr "云端存档"
 
 #: script/engine.js:286
 msgid "Export / Import"
@@ -256,11 +256,11 @@ msgstr "导出/导入"
 
 #: script/engine.js:290
 msgid "export or import save data, for backing up"
-msgstr "导出或导入存档文件，用于备份"
+msgstr "导出或导入存档，用于备份"
 
 #: script/engine.js:291
 msgid "or migrating computers"
-msgstr "或迁移至别的电脑"
+msgstr "或迁移到其他设备"
 
 #: script/engine.js:295
 msgid "export"
@@ -272,23 +272,23 @@ msgstr "导入"
 
 #: script/engine.js:309
 msgid "save this."
-msgstr "保存此代码"
+msgstr "请保存以下内容"
 
 #: script/engine.js:315
 msgid "got it"
-msgstr "已完成"
+msgstr "知道了"
 
 #: script/engine.js:323
 msgid "are you sure?"
-msgstr "您确定吗？"
+msgstr "你确定吗？"
 
 #: script/engine.js:324
 msgid "if the code is invalid, all data will be lost."
-msgstr "如果存档代码无效，所有数据均会丢失。"
+msgstr "若存档码无效，所有数据将丢失。"
 
 #: script/engine.js:325
 msgid "this is irreversible."
-msgstr "此操作不可撤销。"
+msgstr "此操作不可逆。"
 
 #: script/engine.js:329 script/engine.js:398 script/engine.js:548
 msgid "yes"
@@ -300,7 +300,7 @@ msgstr "否"
 
 #: script/engine.js:340
 msgid "put the save code here."
-msgstr "此处可填入存档代码"
+msgstr "在此粘贴存档码"
 
 #: script/engine.js:392
 msgid "Restart?"
@@ -308,15 +308,15 @@ msgstr "重开？"
 
 #: script/engine.js:395
 msgid "restart the game?"
-msgstr "重开游戏？"
+msgstr "是否重开江湖？"
 
 #: script/engine.js:426
 msgid "Get the App"
-msgstr "应用商店"
+msgstr "获取江湖令"
 
 #: script/engine.js:429
 msgid "bring the room with you."
-msgstr "您确定吗？"
+msgstr "带着庙宇的记忆同行。"
 
 #: script/engine.js:432
 msgid "ios"
@@ -324,7 +324,7 @@ msgstr "iOS"
 
 #: script/engine.js:439
 msgid "android"
-msgstr "android"
+msgstr "安卓版"
 
 #: script/engine.js:446 script/engine.js:491
 msgid "close"
@@ -332,44 +332,44 @@ msgstr "关闭"
 
 #: script/engine.js:457
 msgid "Share"
-msgstr "分享"
+msgstr "江湖分享"
 
 #: script/engine.js:460
 msgid "bring your friends."
-msgstr "分享给你的好友。"
+msgstr "邀好友共闯江湖。"
 
 #: script/engine.js:463
 msgid "facebook"
-msgstr "facebook"
+msgstr "江湖令(脸书)"
 
 #: script/engine.js:470
 msgid "google+"
-msgstr "google+"
+msgstr "江湖令(谷歌)"
 
 #: script/engine.js:477
 msgid "twitter"
-msgstr "twitter"
+msgstr "江湖令(推特)"
 
 #: script/engine.js:484
 msgid "reddit"
-msgstr "reddit"
+msgstr "江湖令(红迪)"
 
 #: script/engine.js:525 script/engine.js:529
 msgid "lights on."
-msgstr "开灯"
+msgstr "点灯"
 
 #: script/engine.js:542
 msgid "Go Hyper?"
-msgstr "要加速么？"
+msgstr "是否加速？"
 
 #: script/engine.js:545
 msgid ""
 "turning hyper mode speeds up the game to x2 speed. do you want to do that?"
-msgstr "开启加速模式将会使游戏速度变为原有的2倍。你确定要加速吗？"
+msgstr "开启加速模式后，江湖流速将变为2倍。确定吗？"
 
 #: script/engine.js:568
 msgid "classic."
-msgstr "原速"
+msgstr "经典速度"
 
 #: script/engine.js:667
 #, python-brace-format
@@ -378,28 +378,28 @@ msgstr "{0} /{1}秒"
 
 #: script/engine.js:812
 msgid "sound off."
-msgstr "声音关"
+msgstr "关闭声音"
 
 #: script/engine.js:856
 #, fuzzy
 msgid "Sound Available!"
-msgstr "可用"
+msgstr "发现音律！"
 
 #: script/engine.js:860
 msgid "ears flooded with new sensations."
-msgstr ""
+msgstr "耳畔传来阵阵音律。"
 
 #: script/engine.js:861
 msgid "perhaps silence is safer?"
-msgstr ""
+msgstr "也许寂静更为安全？"
 
 #: script/engine.js:865
 msgid "enable audio"
-msgstr ""
+msgstr "开启音律"
 
 #: script/engine.js:870
 msgid "disable audio"
-msgstr ""
+msgstr "保持寂静"
 
 #: script/events.js:259
 msgid "pause."
@@ -407,7 +407,7 @@ msgstr "确认"
 
 #: script/events.js:290
 msgid "eat meat"
-msgstr "吃肉"
+msgstr "服金疮药"
 
 #: script/events.js:310
 msgid "use meds"
@@ -427,11 +427,11 @@ msgstr ""
 
 #: script/events.js:623
 msgid "miss"
-msgstr "失手"
+msgstr "未命中"
 
 #: script/events.js:674
 msgid "stunned"
-msgstr "惊吓"
+msgstr "眩晕"
 
 #: script/events.js:815 script/events/executioner.js:136
 #: script/events/executioner.js:152 script/events/executioner.js:186
@@ -500,11 +500,11 @@ msgstr "离开"
 
 #: script/events.js:857
 msgid "drop:"
-msgstr "丢弃:"
+msgstr "丢弃："
 
 #: script/events.js:882 script/events/room.js:590
 msgid "nothing"
-msgstr "一无所获"
+msgstr "无"
 
 #: script/events.js:913 script/events/setpieces.js:3563
 msgid "take"
@@ -536,57 +536,57 @@ msgstr "以及"
 
 #: script/events.js:1305
 msgid "*** EVENT ***"
-msgstr "*** 消息 ***"
+msgstr "*** 江湖事件 ***"
 
 #: script/fabricator.js:6
 msgid "Fabricator"
-msgstr ""
+msgstr "神兵阁"
 
 #: script/fabricator.js:9
 #, fuzzy
 msgid "energy blade"
-msgstr "能量元件"
+msgstr "倚天剑谱"
 
 #: script/fabricator.js:11
 msgid "the blade hums, charged particles sparking and fizzing."
-msgstr ""
+msgstr "剑谱泛着古朴的光泽，蕴含着绝世武学的奥秘。"
 
 #: script/fabricator.js:17
 msgid "fluid recycler"
-msgstr ""
+msgstr "甘露泉"
 
 #: script/fabricator.js:20
 msgid "water out, water in. waste not, want not."
-msgstr ""
+msgstr "水来水去，生生不息，不愁无水。"
 
 #: script/fabricator.js:26
 msgid "cargo drone"
-msgstr ""
+msgstr "乾坤袋"
 
 #: script/fabricator.js:29
 msgid "the workhorse of the wanderer fleet."
-msgstr ""
+msgstr "江湖行者的得力之器。"
 
 #: script/fabricator.js:35
 #, fuzzy
 msgid "kinetic armour"
-msgstr "铁甲"
+msgstr "金刚不坏神功"
 
 #: script/fabricator.js:39
 msgid "wanderer soldiers succeed by subverting the enemy's rage."
-msgstr ""
+msgstr "以敌之力，还施彼身。"
 
 #: script/fabricator.js:45
 msgid "disruptor"
-msgstr ""
+msgstr "狮吼功"
 
 #: script/fabricator.js:48
 msgid "somtimes it is best not to fight."
-msgstr ""
+msgstr "有时不战而屈人之兵，方为上策。"
 
 #: script/fabricator.js:54
 msgid "hypo"
-msgstr ""
+msgstr "黑玉断续膏"
 
 #: script/fabricator.js:57
 msgid "a handful of hypos. life in a vial."
@@ -594,20 +594,20 @@ msgstr ""
 
 #: script/fabricator.js:64
 msgid "stim"
-msgstr ""
+msgstr "大还丹"
 
 #: script/fabricator.js:67
 msgid "sometimes it is best to fight without restraint."
-msgstr ""
+msgstr "有时放手一搏，方显英雄本色。"
 
 #: script/fabricator.js:73
 #, fuzzy
 msgid "plasma rifle"
-msgstr "激光步枪"
+msgstr "降龙掌意"
 
 #: script/fabricator.js:76
 msgid "the peak of wanderer weapons technology, sleek and deadly."
-msgstr ""
+msgstr "武林绝学的巅峰，至简至强。"
 
 #: script/fabricator.js:82
 msgid "glow stone"
@@ -641,51 +641,51 @@ msgstr "不够了"
 
 #: script/localization.js:4
 msgid "saved."
-msgstr "已保存"
+msgstr "已存档。"
 
 #: script/localization.js:5
 msgid "wood"
-msgstr "木头"
+msgstr "银两"
 
 #: script/localization.js:6
 msgid "builder"
-msgstr "建造者"
+msgstr "隐世前辈"
 
 #: script/localization.js:7
 msgid "teeth"
-msgstr "牙齿"
+msgstr "内丹"
 
 #: script/localization.js:8
 msgid "meat"
-msgstr "肉"
+msgstr "干粮"
 
 #: script/localization.js:9
 msgid "fur"
-msgstr "毛皮"
+msgstr "药材"
 
 #: script/localization.js:10
 msgid "alien alloy"
-msgstr "外星合金"
+msgstr "玄铁"
 
 #: script/localization.js:11
 msgid "bullets"
-msgstr "子弹"
+msgstr "飞镖"
 
 #: script/localization.js:12
 msgid "charm"
-msgstr "符咒"
+msgstr "护身符"
 
 #: script/localization.js:13 script/path.js:144
 msgid "leather"
-msgstr "皮革"
+msgstr "兽皮"
 
 #: script/localization.js:14 script/path.js:142
 msgid "iron"
-msgstr "铁"
+msgstr "铁矿石"
 
 #: script/localization.js:15 script/path.js:140
 msgid "steel"
-msgstr "钢"
+msgstr "精铁"
 
 #: script/localization.js:16
 msgid "coal"
@@ -697,59 +697,59 @@ msgstr "硫磺"
 
 #: script/localization.js:18
 msgid "energy cell"
-msgstr "能量元件"
+msgstr "内力"
 
 #: script/localization.js:19 script/room.js:169
 msgid "torch"
-msgstr "火把"
+msgstr "火折子"
 
 #: script/localization.js:20
 msgid "medicine"
-msgstr "药剂"
+msgstr "九花玉露丸"
 
 #: script/localization.js:21 script/outside.js:22
 msgid "hunter"
-msgstr "猎人"
+msgstr "采药弟子"
 
 #: script/localization.js:22 script/outside.js:30
 msgid "trapper"
-msgstr "陷阱师"
+msgstr "守山弟子"
 
 #: script/localization.js:23 script/outside.js:38
 msgid "tanner"
-msgstr "皮革师"
+msgstr "铸造弟子"
 
 #: script/localization.js:24
 msgid "grenade"
-msgstr "手雷"
+msgstr "降龙十八掌"
 
 #: script/localization.js:25
 msgid "bolas"
-msgstr "套索"
+msgstr "缠丝擒拿手"
 
 #: script/localization.js:26
 msgid "bayonet"
-msgstr "刺刀"
+msgstr "倚天剑"
 
 #: script/localization.js:27 script/outside.js:46
 msgid "charcutier"
-msgstr "熏肉师"
+msgstr "炼丹弟子"
 
 #: script/localization.js:28 script/outside.js:55
 msgid "iron miner"
-msgstr "铁矿工人"
+msgstr "矿工"
 
 #: script/localization.js:29
 msgid "iron mine"
-msgstr "铁矿"
+msgstr "铁矿山"
 
 #: script/localization.js:30 script/outside.js:63
 msgid "coal miner"
-msgstr "煤矿工人"
+msgstr "煤矿工"
 
 #: script/localization.js:31
 msgid "coal mine"
-msgstr "煤矿"
+msgstr "煤矿山"
 
 #: script/localization.js:32 script/outside.js:71
 msgid "sulphur miner"
@@ -761,11 +761,11 @@ msgstr "硫磺矿"
 
 #: script/localization.js:34 script/outside.js:88
 msgid "armourer"
-msgstr "军械工人"
+msgstr "暗器师"
 
 #: script/localization.js:35 script/outside.js:79
 msgid "steelworker"
-msgstr "炼钢工人"
+msgstr "精炼师"
 
 #: script/localization.js:36
 msgid "bait"
@@ -773,11 +773,11 @@ msgstr "诱饵"
 
 #: script/localization.js:37 script/localization.js:44
 msgid "cured meat"
-msgstr "熏肉"
+msgstr "金疮药"
 
 #: script/localization.js:38 script/localization.js:43
 msgid "scales"
-msgstr "鳞片"
+msgstr "灵骨"
 
 #: script/localization.js:39
 msgid "compass"
@@ -785,11 +785,11 @@ msgstr "罗盘"
 
 #: script/localization.js:40
 msgid "laser rifle"
-msgstr "激光步枪"
+msgstr "六脉神剑"
 
 #: script/localization.js:41 script/outside.js:15
 msgid "gatherer"
-msgstr "伐木者"
+msgstr "杂役弟子"
 
 #: script/localization.js:42
 msgid "cloth"
@@ -797,71 +797,71 @@ msgstr "布料"
 
 #: script/localization.js:45
 msgid "thieves"
-msgstr "小偷"
+msgstr "盗贼"
 
 #: script/localization.js:46
 msgid "not enough fur"
-msgstr "皮毛不够了"
+msgstr "药材不足"
 
 #: script/localization.js:47
 msgid "not enough wood"
-msgstr "木头不够了"
+msgstr "银两不足"
 
 #: script/localization.js:48
 msgid "not enough coal"
-msgstr "煤炭不够了"
+msgstr "煤不足"
 
 #: script/localization.js:49
 msgid "not enough iron"
-msgstr "铁不够了"
+msgstr "铁矿石不足"
 
 #: script/localization.js:50
 msgid "not enough steel"
-msgstr "钢不够了"
+msgstr "精铁不足"
 
 #: script/localization.js:51
 msgid "not enough sulphur"
-msgstr "硫磺不够了"
+msgstr "硫磺不足"
 
 #: script/localization.js:52
 msgid "baited trap"
-msgstr "上饵陷阱"
+msgstr "已设饵的机关阵"
 
 #: script/localization.js:53
 msgid "not enough scales"
-msgstr "鳞片不够了"
+msgstr "灵骨不足"
 
 #: script/localization.js:54
 msgid "not enough cloth"
-msgstr "布料不够了"
+msgstr "布料不足"
 
 #: script/localization.js:55
 msgid "not enough teeth"
-msgstr "牙齿不够了"
+msgstr "内丹不足"
 
 #: script/localization.js:56
 msgid "not enough leather"
-msgstr "皮革不够了"
+msgstr "兽皮不足"
 
 #: script/localization.js:57
 msgid "not enough meat"
-msgstr "肉不够了"
+msgstr "干粮不足"
 
 #: script/localization.js:58
 msgid "the compass points east"
-msgstr "罗盘指向东方"
+msgstr "罗盘指向东"
 
 #: script/localization.js:59
 msgid "the compass points west"
-msgstr "罗盘指向西方"
+msgstr "罗盘指向西"
 
 #: script/localization.js:60
 msgid "the compass points north"
-msgstr "罗盘指向北方"
+msgstr "罗盘指向北"
 
 #: script/localization.js:61
 msgid "the compass points south"
-msgstr "罗盘指向南方"
+msgstr "罗盘指向南"
 
 #: script/localization.js:62
 msgid "the compass points northeast"
@@ -881,7 +881,7 @@ msgstr "罗盘指向西南"
 
 #: script/outside.js:5
 msgid "Outside"
-msgstr "野外"
+msgstr "庙外"
 
 #: script/outside.js:101
 msgid "scraps of fur"
@@ -909,7 +909,7 @@ msgstr "做工粗糙的符咒"
 
 #: script/outside.js:142 script/outside.js:561
 msgid "A Silent Forest"
-msgstr "静谧森林"
+msgstr "寂静的山林"
 
 #: script/outside.js:168
 msgid "gather wood"
@@ -917,7 +917,7 @@ msgstr "伐木"
 
 #: script/outside.js:187
 msgid "a stranger arrives in the night"
-msgstr "陌生人在夜里抵达"
+msgstr "一位陌生人深夜到来"
 
 #: script/outside.js:189
 msgid "a weathered family takes up in one of the huts."
@@ -933,7 +933,7 @@ msgstr "车队历经磨难来到了小镇，怀着和担忧同等的希望"
 
 #: script/outside.js:195
 msgid "the town's booming. word does get around."
-msgstr "镇子繁荣热闹，消息不胫而走"
+msgstr "门派日渐兴盛，声名远播。"
 
 #: script/outside.js:451
 msgid "pop "
@@ -941,7 +941,7 @@ msgstr "人口 "
 
 #: script/outside.js:456
 msgid "forest"
-msgstr "树林"
+msgstr "山林"
 
 #: script/outside.js:459
 msgid "village"
@@ -949,7 +949,7 @@ msgstr "村落"
 
 #: script/outside.js:542
 msgid "check traps"
-msgstr "查看陷阱"
+msgstr "查看机关阵"
 
 #: script/outside.js:563
 msgid "A Lonely Hut"
@@ -957,52 +957,52 @@ msgstr "孤独小屋"
 
 #: script/outside.js:565
 msgid "A Tiny Village"
-msgstr "小型村落"
+msgstr "小村落"
 
 #: script/outside.js:567
 msgid "A Modest Village"
-msgstr "中型村落"
+msgstr "普通村落"
 
 #: script/outside.js:569
 msgid "A Large Village"
-msgstr "大型村落"
+msgstr "热闹的村落"
 
 #: script/outside.js:571
 msgid "A Raucous Village"
-msgstr "喧嚣小镇"
+msgstr "繁华的村落"
 
 #: script/outside.js:583
 msgid "the sky is grey and the wind blows relentlessly"
-msgstr "天色阴沉，风无情地刮着"
+msgstr "天色灰暗，寒风凛冽"
 
 #: script/outside.js:609
 msgid "dry brush and dead branches litter the forest floor"
-msgstr "林地上散落着枯枝败叶"
+msgstr "山林中枯枝败叶散落一地"
 
 #: script/outside.js:637
 msgid "the traps contain "
-msgstr "陷阱捕获到"
+msgstr "机关阵捕获了"
 
 #: script/path.js:29 script/path.js:321
 msgid "A Dusty Path"
-msgstr "漫漫尘途"
+msgstr "山间小路"
 
 #: script/path.js:39
 msgid "supplies:"
-msgstr "供应:"
+msgstr "行囊："
 
 #: script/path.js:45
 msgid "embark"
-msgstr "出发"
+msgstr "踏上江湖"
 
 #: script/path.js:62 script/room.js:1222
 msgid "the compass points "
-msgstr "罗盘指向:"
+msgstr "罗盘指向"
 
 #: script/path.js:106
 #, fuzzy
 msgid "perks"
-msgstr "能力:"
+msgstr "武学境界"
 
 #: script/path.js:136
 msgid "none"
@@ -1039,7 +1039,7 @@ msgstr ""
 #: script/path.js:243 script/world.js:325
 #, python-brace-format
 msgid "free {0}/{1}"
-msgstr "背包剩余空间: {0}/{1}"
+msgstr "行囊剩余空间：{0}/{1}"
 
 #: script/path.js:270
 msgid "damage"
@@ -1055,147 +1055,147 @@ msgstr "可用"
 
 #: script/room.js:14
 msgid "trap"
-msgstr "陷阱"
+msgstr "机关阵"
 
 #: script/room.js:17
 msgid ""
 "builder says she can make traps to catch any creatures might still be alive "
 "out there"
-msgstr "建造者说她能够制作陷阱来捕捉那些仍在野外活动的野兽"
+msgstr "前辈说可以制作机关阵，防御山中野兽。"
 
 #: script/room.js:18
 msgid "more traps to catch more creatures"
-msgstr "陷阱越多，抓到的猎物就越多"
+msgstr "更多的机关阵，可御更多野兽"
 
 #: script/room.js:19
 msgid "more traps won't help now"
-msgstr "再增加陷阱已毫无裨益"
+msgstr "再多机关阵也无用了"
 
 #: script/room.js:30
 msgid "cart"
-msgstr "货车"
+msgstr "独轮车"
 
 #: script/room.js:33
 msgid "builder says she can make a cart for carrying wood"
-msgstr "建造者说她能够制造出货车，用来运载木头"
+msgstr "前辈说可以打造一辆独轮车，方便运送银两。"
 
 #: script/room.js:34
 msgid "the rickety cart will carry more wood from the forest"
-msgstr "摇摇晃晃的货车满载从森林运出的木头"
+msgstr "简陋的独轮车能从山林中运回更多银两。"
 
 #: script/room.js:44
 msgid "hut"
-msgstr "小屋"
+msgstr "弟子房"
 
 #: script/room.js:47
 msgid "builder says there are more wanderers. says they'll work, too."
-msgstr "建造者说这里有许多流浪者，他们也会来工作"
+msgstr "前辈说山下来了更多流落之人，可以收为弟子。"
 
 #: script/room.js:48
 msgid "builder puts up a hut, out in the forest. says word will get around."
-msgstr "建造者在林中建起一栋小屋，她说消息很快就会流传出去"
+msgstr "前辈在山林中搭建了弟子房，说消息传开，会有更多人前来。"
 
 #: script/room.js:49
 msgid "no more room for huts."
-msgstr "再没有可以建小屋的空地了"
+msgstr "没有地方再建弟子房了。"
 
 #: script/room.js:60
 msgid "lodge"
-msgstr "狩猎小屋"
+msgstr "采药庐"
 
 #: script/room.js:63
 msgid "villagers could help hunt, given the means"
-msgstr "假如工具齐备，村民也能帮忙狩猎"
+msgstr "弟子们可以帮忙采药，只需提供必要的工具。"
 
 #: script/room.js:64
 msgid "the hunting lodge stands in the forest, a ways out of town"
-msgstr "狩猎小屋已经矗立在林中，距离村子不远"
+msgstr "采药庐建在山林深处，离门派有一段距离。"
 
 #: script/room.js:76
 msgid "trading post"
-msgstr "贸易站"
+msgstr "集市"
 
 #: script/room.js:79
 msgid "a trading post would make commerce easier"
-msgstr "贸易站让贸易变得更加便捷"
+msgstr "有了集市，交易往来就方便多了。"
 
 #: script/room.js:80
 msgid ""
 "now the nomads have a place to set up shop, they might stick around a while"
-msgstr "现在游牧部落有地方安营扎寨设立商铺了，他们也许会多逗留一段时间"
+msgstr "现在商贩们有了落脚的地方，也许会多逗留一段时间。"
 
 #: script/room.js:91
 msgid "tannery"
-msgstr "制革屋"
+msgstr "铸造坊"
 
 #: script/room.js:94
 msgid "builder says leather could be useful. says the villagers could make it."
-msgstr "建造者说皮革会很有用，而且村民也会做"
+msgstr "前辈说兽皮大有用途，弟子们可以学着制作。"
 
 #: script/room.js:95
 msgid "tannery goes up quick, on the edge of the village"
-msgstr "制革屋很快在村子一角建立了起来"
+msgstr "铸造坊很快建好，坐落在门派的一角。"
 
 #: script/room.js:106
 msgid "smokehouse"
-msgstr "熏肉房"
+msgstr "炼丹房"
 
 #: script/room.js:109
 msgid ""
 "should cure the meat, or it'll spoil. builder says she can fix something up."
-msgstr "应该把肉熏一下，否则会腐坏掉。建造者说她能搞定这个。"
+msgstr "不把药材炼制成药，恐怕会腐坏。前辈说可以建个炼丹房。"
 
 #: script/room.js:110
 msgid "builder finishes the smokehouse. she looks hungry."
-msgstr "建造者造好了熏肉房。她看起来饥肠辘辘。"
+msgstr "前辈建好了炼丹房，看上去甚是劳累。"
 
 #: script/room.js:121
 msgid "workshop"
-msgstr "工坊"
+msgstr "锻造间"
 
 #: script/room.js:124
 msgid "builder says she could make finer things, if she had the tools"
-msgstr "建造者说如果她有工具的话能做出一些更精良的东西"
+msgstr "前辈说若有更好的工具，可以打造更精美的器物。"
 
 #: script/room.js:125
 msgid "workshop's finally ready. builder's excited to get to it"
-msgstr "工坊终于建好了，建造者激动不已"
+msgstr "锻造间终于建成，前辈跃跃欲试。"
 
 #: script/room.js:137
 msgid "steelworks"
-msgstr "炼钢坊"
+msgstr "精炼坊"
 
 #: script/room.js:140
 msgid "builder says the villagers could make steel, given the tools"
-msgstr "建造者说给村民工具的话他们就能帮忙炼钢"
+msgstr "前辈说弟子们可以学着炼制精铁。"
 
 #: script/room.js:141
 msgid "a haze falls over the village as the steelworks fires up"
-msgstr "炼钢坊开工后，一缕黑烟飘向村庄上空"
+msgstr "精炼坊炉火燃起，一缕青烟升入门派上空。"
 
 #: script/room.js:153
 msgid "armoury"
-msgstr "军械坊"
+msgstr "暗器坊"
 
 #: script/room.js:156
 msgid "builder says it'd be useful to have a steady source of bullets"
-msgstr "建造者说拥有稳定的弹药来源很有必要"
+msgstr "前辈说要是有稳定的飞镖来源就好了。"
 
 #: script/room.js:157
 msgid "armoury's done, welcoming back the weapons of the past."
-msgstr "军械坊建好了，欢迎使用这些过时的武器"
+msgstr "暗器坊建成，昔日的暗器之术重现江湖。"
 
 #: script/room.js:172
 msgid "a torch to keep the dark away"
-msgstr "驱散黑暗的火把"
+msgstr "火折子虽小，足以驱散黑暗。"
 
 #: script/room.js:182
 msgid "waterskin"
-msgstr "水壶"
+msgstr "水囊"
 
 #: script/room.js:186
 msgid "this waterskin'll hold a bit of water, at least"
-msgstr "起码能装那么点儿水"
+msgstr "这水囊至少能存些清水。"
 
 #: script/room.js:195
 msgid "cask"
@@ -1203,7 +1203,7 @@ msgstr "水桶"
 
 #: script/room.js:199
 msgid "the cask holds enough water for longer expeditions"
-msgstr "为更长的探索之旅提供充足的水源"
+msgstr "这水壶可存更多水，适合长途跋涉。"
 
 #: script/room.js:209
 msgid "water tank"
@@ -1211,39 +1211,39 @@ msgstr "水罐"
 
 #: script/room.js:213
 msgid "never go thirsty again"
-msgstr "再也不担心口渴"
+msgstr "从此不愁饮水。"
 
 #: script/room.js:223
 msgid "bone spear"
-msgstr "骨枪"
+msgstr "青竹棒"
 
 #: script/room.js:226
 msgid "this spear's not elegant, but it's pretty good at stabbing"
-msgstr "这柄标枪不怎么精致，但用来戳刺手感不错"
+msgstr "这青竹棒虽不雅致，倒也算趁手。"
 
 #: script/room.js:236 script/world.js:320
 msgid "rucksack"
-msgstr "双肩包"
+msgstr "行囊"
 
 #: script/room.js:240
 msgid "carrying more means longer expeditions to the wilds"
-msgstr "荒野旅行时携带更多物资"
+msgstr "背负更多，便可行走更远。"
 
 #: script/room.js:249
 msgid "wagon"
-msgstr "篷车"
+msgstr "马车"
 
 #: script/room.js:253
 msgid "the wagon can carry a lot of supplies"
-msgstr "篷车能够携带许多物资"
+msgstr "马车可装载大量物资。"
 
 #: script/room.js:263
 msgid "convoy"
-msgstr "车队"
+msgstr "镖车"
 
 #: script/room.js:267
 msgid "the convoy can haul mostly everything"
-msgstr "车队几乎能把所有东西都装下"
+msgstr "镖车几乎可以装下所有东西。"
 
 #: script/room.js:278
 msgid "l armour"
@@ -1251,7 +1251,7 @@ msgstr "皮甲"
 
 #: script/room.js:281
 msgid "leather's not strong. better than rags, though."
-msgstr "皮革不算结实。总比披块破布强"
+msgstr "兽皮不够坚固，但总比布衣强。"
 
 #: script/room.js:291
 msgid "i armour"
@@ -1259,31 +1259,31 @@ msgstr "铁甲"
 
 #: script/room.js:294
 msgid "iron's stronger than leather"
-msgstr "铁比皮要结实"
+msgstr "铁比兽皮更坚固。"
 
 #: script/room.js:304
 msgid "s armour"
-msgstr "钢甲"
+msgstr "金丝软甲"
 
 #: script/room.js:307
 msgid "steel's stronger than iron"
-msgstr "钢的总比铁的强"
+msgstr "精铁比铁更坚固。"
 
 #: script/room.js:317
 msgid "iron sword"
-msgstr "铁剑"
+msgstr "青钢剑"
 
 #: script/room.js:320
 msgid "sword is sharp. good protection out in the wilds."
-msgstr "剑很锋利。能在野外提供不错的防护"
+msgstr "剑锋锋利，行走江湖的可靠之器。"
 
 #: script/room.js:331
 msgid "steel sword"
-msgstr "钢剑"
+msgstr "玄铁重剑"
 
 #: script/room.js:334
 msgid "the steel is strong, and the blade true."
-msgstr "好钢出利刃"
+msgstr "精铁铸就，剑锋无匹。"
 
 #: script/room.js:345
 msgid "rifle"
@@ -1291,15 +1291,15 @@ msgstr "步枪"
 
 #: script/room.js:347
 msgid "black powder and bullets, like the old days."
-msgstr "黑火药和子弹，就像过去那样"
+msgstr "以内力催动飞镖，如同传说中的弹指神通。"
 
 #: script/room.js:493
 msgid "Room"
-msgstr "房间"
+msgstr "破庙"
 
 #: script/room.js:520 script/room.js:641
 msgid "A Dark Room"
-msgstr "小黑屋"
+msgstr "残破的庙宇"
 
 #: script/room.js:533
 msgid "light fire"
@@ -1312,12 +1312,12 @@ msgstr "添柴"
 #: script/room.js:580 script/room.js:590 script/room.js:747 script/room.js:751
 #, python-brace-format
 msgid "the room is {0}"
-msgstr "房间{0}"
+msgstr "庙中{0}"
 
 #: script/room.js:581 script/room.js:589 script/room.js:711
 #, python-brace-format
 msgid "the fire is {0}"
-msgstr "火堆{0}"
+msgstr "篝火{0}"
 
 #: script/room.js:600
 msgid ""
@@ -1327,75 +1327,75 @@ msgstr "那名陌生人站在火堆旁。她说她可以帮忙。她说她会建
 
 #: script/room.js:617
 msgid "freezing"
-msgstr "寒冷刺骨"
+msgstr "冰冷刺骨"
 
 #: script/room.js:618
 msgid "cold"
-msgstr "很冷"
+msgstr "寒冷"
 
 #: script/room.js:619
 msgid "mild"
-msgstr "很宜人"
+msgstr "温和"
 
 #: script/room.js:620
 msgid "warm"
-msgstr "暖和"
+msgstr "温暖"
 
 #: script/room.js:621
 msgid "hot"
-msgstr "很热"
+msgstr "炎热"
 
 #: script/room.js:633
 msgid "dead"
-msgstr "熄灭了"
+msgstr "已熄灭"
 
 #: script/room.js:634
 msgid "smoldering"
-msgstr "开始冒烟"
+msgstr "青烟袅袅"
 
 #: script/room.js:635
 msgid "flickering"
-msgstr "冒出火苗"
+msgstr "微微闪烁"
 
 #: script/room.js:636
 msgid "burning"
-msgstr "燃烧着"
+msgstr "熊熊燃烧"
 
 #: script/room.js:637
 msgid "roaring"
-msgstr "熊熊燃烧"
+msgstr "烈火呼啸"
 
 #: script/room.js:641
 msgid "A Firelit Room"
-msgstr "生火间"
+msgstr "篝火通明的庙宇"
 
 #: script/room.js:679
 msgid "not enough wood to get the fire going"
-msgstr "木头不够生火了"
+msgstr "银两不足，难以生火"
 
 #: script/room.js:693
 msgid "the wood has run out"
-msgstr "木头用光了"
+msgstr "银两已用尽"
 
 #: script/room.js:714
 msgid "the light from the fire spills from the windows, out into the dark"
-msgstr "火光映出窗外，投入黑暗之中"
+msgstr "篝火的光芒从窗棂洒出，照入夜色之中"
 
 #: script/room.js:732
 msgid "builder stokes the fire"
-msgstr "建造者添了柴火"
+msgstr "前辈往篝火中添了些柴"
 
 #: script/room.js:762
 msgid "the wind howls outside"
-msgstr "屋外寒风呼啸"
+msgstr "庙外风声呼啸"
 
 #: script/room.js:763
 msgid "the wood is running out"
-msgstr "木头就快烧完了"
+msgstr "银两即将告罄"
 
 #: script/room.js:770
 msgid "a ragged stranger stumbles through the door and collapses in the corner"
-msgstr "一个衣衫褴褛的陌生人步履蹒跚地步入门来，瘫倒在角落里"
+msgstr "一位衣衫褴褛的老者踉跄走进庙门，在角落里昏倒过去"
 
 #: script/room.js:778
 msgid ""
@@ -1404,15 +1404,15 @@ msgstr "陌生人瑟瑟发抖，呢喃不已，听不清在说些什么"
 
 #: script/room.js:781
 msgid "the stranger in the corner stops shivering. her breathing calms."
-msgstr "角落里的陌生人不再颤抖了，她的呼吸平静了下来"
+msgstr "角落里的老者不再颤抖，呼吸渐渐平稳下来。"
 
 #: script/room.js:804
 msgid "stores"
-msgstr "库存"
+msgstr "资源"
 
 #: script/room.js:823
 msgid "weapons"
-msgstr "武器"
+msgstr "兵器"
 
 #: script/room.js:966
 msgid "total"
@@ -1424,61 +1424,61 @@ msgstr "不够了"
 
 #: script/room.js:1006
 msgid "builder just shivers"
-msgstr "建造者还在瑟瑟发抖"
+msgstr "前辈冷得发抖，无法工作"
 
 #: script/room.js:1121
 msgid "build:"
-msgstr "建筑物:"
+msgstr "建造："
 
 #: script/room.js:1128
 msgid "craft:"
-msgstr "制造:"
+msgstr "制作："
 
 #: script/room.js:1135
 msgid "buy:"
-msgstr "购买:"
+msgstr "交易："
 
 #: script/ship.js:10
 msgid "Ship"
-msgstr "飞船"
+msgstr "修炼"
 
 #: script/ship.js:26 script/ship.js:100
 msgid "An Old Starship"
-msgstr "破旧星舰"
+msgstr "绝世神功"
 
 #: script/ship.js:37
 msgid "hull:"
-msgstr "外壳:"
+msgstr "功法层数："
 
 #: script/ship.js:43
 msgid "engine:"
-msgstr "引擎:"
+msgstr "内力修为："
 
 #: script/ship.js:50
 msgid "reinforce hull"
-msgstr "加固船身"
+msgstr "修炼功法"
 
 #: script/ship.js:59
 msgid "upgrade engine"
-msgstr "升级引擎"
+msgstr "提升内力"
 
 #: script/ship.js:68 script/ship.js:144
 msgid "lift off"
-msgstr "点火起飞"
+msgstr "破碎虚空"
 
 #: script/ship.js:90
 msgid ""
 "somewhere above the debris cloud, the wanderer fleet hovers. been on this "
 "rock too long."
-msgstr "碎片云上方的某处，流浪者舰队徘徊着。在这块岩石上太久了。"
+msgstr "星河之上，不知何处是归途。在这凡尘俗世已逗留太久了。"
 
 #: script/ship.js:106 script/ship.js:120
 msgid "not enough alien alloy"
-msgstr "外星合金不足"
+msgstr "玄铁不足"
 
 #: script/ship.js:136
 msgid "Ready to Leave?"
-msgstr "准备好要离开了吗?"
+msgstr "准备好踏入江湖了吗？"
 
 #: script/ship.js:140
 msgid "time to get out of this place. won't be coming back."
@@ -1514,7 +1514,7 @@ msgstr "外逸层"
 
 #: script/space.js:88
 msgid "Space"
-msgstr "太空"
+msgstr "破碎虚空"
 
 #: script/space.js:501
 msgid "wait"
@@ -1523,12 +1523,12 @@ msgstr ""
 #: script/space.js:520
 #, python-brace-format
 msgid "score for this game: {0}"
-msgstr "游戏得分: {0}"
+msgstr "本次江湖声望：{0}"
 
 #: script/space.js:527
 #, python-brace-format
 msgid "total score: {0}"
-msgstr "总分: {0}"
+msgstr "累计声望：{0}"
 
 #: script/space.js:546
 msgid ""
@@ -1541,43 +1541,43 @@ msgstr "iOS"
 
 #: script/space.js:563
 msgid "android."
-msgstr "android"
+msgstr "安卓版"
 
 #: script/world.js:47
 msgid "punch"
-msgstr "挥拳"
+msgstr "出拳"
 
 #: script/world.js:53
 msgid "stab"
-msgstr "戳刺"
+msgstr "刺"
 
 #: script/world.js:59
 msgid "swing"
-msgstr "挥斩"
+msgstr "挥剑"
 
 #: script/world.js:65
 msgid "slash"
-msgstr "劈砍"
+msgstr "斩"
 
 #: script/world.js:71
 msgid "thrust"
-msgstr "扎刺"
+msgstr "刺出"
 
 #: script/world.js:77
 msgid "shoot"
-msgstr "开火"
+msgstr "弹指"
 
 #: script/world.js:84
 msgid "blast"
-msgstr "引爆"
+msgstr "剑气"
 
 #: script/world.js:91
 msgid "lob"
-msgstr "投掷"
+msgstr "出掌"
 
 #: script/world.js:98
 msgid "tangle"
-msgstr "牵绊"
+msgstr "擒拿"
 
 #: script/world.js:105
 msgid "disintegrate"
@@ -1594,7 +1594,7 @@ msgstr "惊吓"
 
 #: script/world.js:139
 msgid "An&nbsp;Outpost"
-msgstr "前哨"
+msgstr "一座&nbsp;驿站"
 
 #: script/world.js:140
 msgid "Iron&nbsp;Mine"
@@ -1610,40 +1610,40 @@ msgstr "硫磺矿"
 
 #: script/world.js:143
 msgid "An&nbsp;Old&nbsp;House"
-msgstr "破旧小屋"
+msgstr "一间&nbsp;破旧茅屋"
 
 #: script/world.js:144
 msgid "A&nbsp;Damp&nbsp;Cave"
-msgstr "潮湿洞穴"
+msgstr "一个&nbsp;潮湿山洞"
 
 #: script/world.js:145
 msgid "An&nbsp;Abandoned&nbsp;Town"
-msgstr "废弃小镇"
+msgstr "一座&nbsp;废弃小镇"
 
 #: script/world.js:146
 msgid "A&nbsp;Ruined&nbsp;City"
-msgstr "被毁的城市"
+msgstr "一座&nbsp;荒废古城"
 
 #: script/world.js:147
 msgid "A&nbsp;Crashed&nbsp;Starship"
-msgstr "坠毁星舰"
+msgstr "一处&nbsp;天外陨石"
 
 #: script/world.js:148
 msgid "A&nbsp;Borehole"
-msgstr "巨坑"
+msgstr "一处&nbsp;无底剑冢"
 
 #: script/world.js:149
 msgid "A&nbsp;Battlefield"
-msgstr "战场"
+msgstr "一片&nbsp;古战场"
 
 #: script/world.js:150
 msgid "A&nbsp;Murky&nbsp;Swamp"
-msgstr "迷雾沼泽"
+msgstr "一片&nbsp;毒龙沼"
 
 #: script/world.js:151
 #, fuzzy
 msgid "A&nbsp;Ravaged&nbsp;Battleship"
-msgstr "坠毁星舰"
+msgstr "一艘&nbsp;破损战船废墟"
 
 #: script/world.js:155
 msgid "A&nbsp;Destroyed&nbsp;Village"
@@ -1661,7 +1661,7 @@ msgstr "背包"
 #: script/world.js:342
 #, python-brace-format
 msgid "hp: {0}/{1}"
-msgstr "生命: {0}/{1}"
+msgstr "生命：{0}/{1}"
 
 #: script/world.js:349
 #, python-brace-format
@@ -1682,7 +1682,7 @@ msgstr "肉已经吃完了"
 
 #: script/world.js:496
 msgid "starvation sets in"
-msgstr "饥饿袭来"
+msgstr "饥饿难耐"
 
 #: script/world.js:521
 msgid "there is no more water"
@@ -1694,7 +1694,7 @@ msgstr "口渴难耐"
 
 #: script/world.js:608
 msgid "the trees yield to dry grass. the yellowed brush rustles in the wind."
-msgstr "树木歪倒在干草丛中，枯黄的灌木在风中沙沙作响"
+msgstr "林木渐疏，枯草在风中沙沙作响。"
 
 #: script/world.js:611
 msgid ""
@@ -1705,7 +1705,7 @@ msgstr "树木都消失了，唯留下干裂的大地和飞扬的尘土"
 msgid ""
 "trees loom on the horizon. grasses gradually yield to a forest floor of dry "
 "branches and fallen leaves."
-msgstr "地平线上隐约瞧见树林。草地渐渐稀疏，替代以铺着枯枝败叶的森林"
+msgstr "远处山色朦胧，林木渐疏，枯草在风中沙沙作响。"
 
 #: script/world.js:621
 msgid "the grasses thin. soon, only dust remains."
@@ -1723,7 +1723,7 @@ msgstr "尘土中长出了结瘤的树墙，枝干在头顶缠绕成骨骼般的
 
 #: script/world.js:891
 msgid "Wanderer"
-msgstr "漫游者"
+msgstr "江湖侠客"
 
 #: script/world.js:896
 msgid "The&nbsp;Village"
@@ -1731,7 +1731,7 @@ msgstr "村庄"
 
 #: script/world.js:925
 msgid "the world fades"
-msgstr "眼前的世界烟消云散"
+msgstr "江湖渐渐模糊"
 
 #: script/world.js:971
 msgid ""
@@ -2860,35 +2860,35 @@ msgstr "是时候离开这里了。不再回头"
 
 #: script/events/global.js:6
 msgid "The Thief"
-msgstr "小偷"
+msgstr "盗贼"
 
 #: script/events/global.js:13
 msgid "the villagers haul a filthy man out of the store room."
-msgstr "村民们从仓库里拽出来一个脏兮兮的家伙"
+msgstr "弟子们从库房中拖出一个浑身脏污的汉子。"
 
 #: script/events/global.js:14
 msgid "say his folk have been skimming the supplies."
-msgstr "据说他的同伙们早已经顺走许多货物"
+msgstr "说此人一直在偷盗门派物资。"
 
 #: script/events/global.js:15
 msgid "say he should be strung up as an example."
-msgstr "他们说应该绞死他以儆效尤"
+msgstr "说应该将他吊起来以儆效尤。"
 
 #: script/events/global.js:17
 msgid "a thief is caught"
-msgstr "抓到一名小偷"
+msgstr "抓获一名盗贼"
 
 #: script/events/global.js:21
 msgid "hang him"
-msgstr "绞死他"
+msgstr "吊死他"
 
 #: script/events/global.js:25
 msgid "spare him"
-msgstr "释放他"
+msgstr "饶了他"
 
 #: script/events/global.js:32
 msgid "the villagers hang the thief high in front of the store room."
-msgstr "村民们将盗贼绞死，高挂在仓库门前"
+msgstr "弟子们将盗贼吊在库房前示众。"
 
 #: script/events/global.js:33
 msgid ""
@@ -2897,11 +2897,11 @@ msgstr "此举卓有成效。数日后，遗失的物资都被还了回来"
 
 #: script/events/global.js:49
 msgid "the man says he's grateful. says he won't come around any more."
-msgstr "这家伙感激涕零，说他再也不会来行窃了"
+msgstr "那汉子感激涕零，说再也不会来了。"
 
 #: script/events/global.js:50
 msgid "shares what he knows about sneaking before he goes."
-msgstr "在离开前他分享了有关潜行的心得"
+msgstr "临行前，传授了一些隐匿身形的心得。"
 
 #: script/events/marketing.js:9
 msgid "Penrose"
@@ -3013,7 +3013,7 @@ msgstr "一些村民死掉了"
 
 #: script/events/outside.js:97
 msgid "Sickness"
-msgstr "疾病"
+msgstr "疫病"
 
 #: script/events/outside.js:104
 msgid "a sickness is spreading through the village."
@@ -3157,7 +3157,7 @@ msgstr "战争冷酷无情"
 
 #: script/events/room.js:6
 msgid "The Nomad"
-msgstr "游牧部落"
+msgstr "游商"
 
 #: script/events/room.js:13
 msgid ""
@@ -3326,11 +3326,11 @@ msgstr "留给我们一些布料"
 
 #: script/events/room.js:265
 msgid "The Shady Builder"
-msgstr "可疑的建造者"
+msgstr "可疑的江湖骗子"
 
 #: script/events/room.js:272 script/events/room.js:275
 msgid "a shady builder passes through"
-msgstr "可疑的建造者经过"
+msgstr "一个形迹可疑的江湖骗子路过门派"
 
 #: script/events/room.js:273
 msgid "says he can build you a hut for less wood"
@@ -3338,29 +3338,29 @@ msgstr "他说他能用较少的木头建造小屋"
 
 #: script/events/room.js:278
 msgid "300 wood"
-msgstr "300木头"
+msgstr "300银两"
 
 #: script/events/room.js:290 script/events/room.js:292
 msgid "the shady builder has made off with your wood"
-msgstr "可疑的建造者偷走了你的木头"
+msgstr "那骗子偷走了你的银两"
 
 #: script/events/room.js:302 script/events/room.js:304
 msgid "the shady builder builds a hut"
-msgstr "可疑的建造者建造了小屋"
+msgstr "那骗子建了一座草屋"
 
 #: script/events/room.js:323 script/events/room.js:403
 msgid "The Mysterious Wanderer"
-msgstr "神秘流浪者"
+msgstr "神秘侠客"
 
 #: script/events/room.js:330
 msgid ""
 "a wanderer arrives with an empty cart. says if he leaves with wood, he'll be "
 "back with more."
-msgstr "一名流浪者推着货车来到村子，声称如果让他带着木头离开，他会带回更多木头"
+msgstr "一名游商推着货车来到门派，说用银两换药材可以互利。"
 
 #: script/events/room.js:331
 msgid "builder's not sure he's to be trusted."
-msgstr "建造者不确定能否信任他"
+msgstr "前辈觉得此人不可信任。"
 
 #: script/events/room.js:333 script/events/room.js:413
 msgid "a mysterious wanderer arrives"
@@ -3382,7 +3382,7 @@ msgstr "神秘的流浪者回来了，货车上木头堆得更高了"
 msgid ""
 "a wanderer arrives with an empty cart. says if she leaves with furs, she'll "
 "be back with more."
-msgstr "一名流浪者推着货车来到村子，声称如果让她带着毛皮离开，她会带回更多毛皮"
+msgstr "一名游商推着货车来到门派，说用药材换银两可以互利。"
 
 #: script/events/room.js:411
 msgid "builder's not sure she's to be trusted."
@@ -3402,7 +3402,7 @@ msgstr "神秘的流浪者回来了，货车上毛皮堆得更高了"
 
 #: script/events/room.js:483
 msgid "The Scout"
-msgstr "侦察兵"
+msgstr "探子"
 
 #: script/events/room.js:490
 msgid "the scout says she's been all over."
@@ -3466,7 +3466,7 @@ msgstr "野蛮人"
 
 #: script/events/room.js:600
 msgid "The Sick Man"
-msgstr "患病男子"
+msgstr "病人"
 
 #: script/events/room.js:607
 msgid "a man hobbles up, coughing."
@@ -4460,7 +4460,7 @@ msgstr "一只巨大的生物吼叫了一声，肌肉在火光中起伏着"
 
 #: script/events/setpieces.js:3515
 msgid "the beast is dead."
-msgstr "野兽倒下了"
+msgstr "妖兽倒下了。"
 
 #: script/events/setpieces.js:3518
 msgid "the iron mine is clear of dangers"

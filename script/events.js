@@ -1394,6 +1394,7 @@ var Events = {
 		Engine.tabNavigation = false;
 		Button.saveCooldown = false;
 		Events.eventStack.unshift(event);
+			$('#eventMask').addClass('show');
 		event.eventPanel = $('<div>').attr('id', 'event').addClass('eventPanel').css('opacity', '0');
 		if(options != null && options.width != null) {
 			Events.eventPanel().css('width', options.width);
@@ -1402,7 +1403,7 @@ var Events = {
 		$('<div>').attr('id', 'description').appendTo(Events.eventPanel());
 		$('<div>').attr('id', 'buttons').appendTo(Events.eventPanel());
 		Events.loadScene('start');
-		$('div#wrapper').append(Events.eventPanel());
+		$('#eventMask').append(Events.eventPanel());
 		Events.eventPanel().animate({opacity: 1}, Events._PANEL_FADE, 'linear');
 		var currentSceneInformation = Events.activeEvent().scenes[Events.activeScene];
 		if (currentSceneInformation.blink) {
@@ -1420,6 +1421,7 @@ var Events = {
 	endEvent: function() {
 		AudioEngine.stopEventMusic();
 		Events.eventPanel().animate({opacity:0}, Events._PANEL_FADE, 'linear', function() {
+				$('#eventMask').removeClass('show');
 			Events.eventPanel().remove();
 			Events.activeEvent().eventPanel = null;
 			Events.eventStack.shift();

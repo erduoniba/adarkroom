@@ -111,6 +111,9 @@
 
       $('<div>').attr('id', 'locationSlider').appendTo('#main');
 
+	      // 弹窗遮罩层（独立于 eventPanel，避免 transform 破坏 fixed 定位）
+	      $('<div>').attr('id', 'eventMask').appendTo('body');
+
       var menu = $('<div>')
         .addClass('menu')
         .appendTo('body');

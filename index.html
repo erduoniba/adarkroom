@@ -2,19 +2,35 @@
 <html itemscope itemtype="https://schema.org/CreativeWork">
 <head>
 	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=700px, initial-scale=1.3, maximum-scale=1.3, user-scalable=no">
+	<meta name="viewport" id="viewportMeta" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<script>
+			// 窄屏适配：viewport=700 + 字体补偿，利用浏览器原生缩放
+			(function() {
+				var sw = window.screen.width;
+				if (sw < 768 && sw > 0) {
+					// viewport 设为 700，浏览器会把 700px 缩放到屏幕宽度
+					document.getElementById('viewportMeta').content =
+						'width=700, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';
+					// 字体补偿：浏览器缩小了多少，我们就放大多少
+					var ratio = 700 / sw;
+					var baseSize = Math.round(16 * ratio);
+					document.documentElement.style.fontSize = baseSize + 'px';
+					document.body.style.fontSize = baseSize + 'px';
+				}
+			})();
+		</script>
 	<!--  
-		A Dark Room (v1.4)
+		江湖：暗室
 		==================
 		
-		A minimalist text adventure by Michael Townsend and all his friends.
-		Inspired by Candy Box (https://candybox2.github.io/candybox)
-		Contribute on GitHub! (https://github.com/doublespeakgames/adarkroom/)
+		基于 A Dark Room 的金庸武侠主题改造版
+		原作: A Dark Room by Michael Townsend
+		改编: 金庸武侠主题
 	-->
-	<title>A Dark Room</title>
-	<meta itemprop="description" name="description" property="og:description" content="A minimalist text adventure">
+	<title>江湖：暗室</title>
+	<meta itemprop="description" name="description" property="og:description" content="极简武侠文字冒险游戏">
 	<meta itemprop="image" property="og:image" content="img/adr.png" />
-	<meta itemprop="name" property="og:title" content="A Dark Room" />
+	<meta itemprop="name" property="og:title" content="江湖：暗室" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="image_src" href="img/adr.png" />
 	<script src="lib/jquery.min.js"></script>
@@ -92,31 +108,30 @@
 	<link rel="stylesheet" type="text/css" href="css/fabricator.css" />
 	
 	<script src="script/localization.js"></script>
-	<!-- <script>
-		// Screen orientation handling
-		function checkOrientation() {
-			const orientationMessage = document.getElementById('orientation-message');
-			if (window.innerHeight > window.innerWidth) {
-				orientationMessage.style.display = 'block';
-				document.body.style.overflow = 'hidden';
-			} else {
-				orientationMessage.style.display = 'none';
-				document.body.style.overflow = '';
+	<script>
+		// 竖屏提示（仅手机，平板不提示）
+		(function() {
+			function checkOrientation() {
+				var msg = document.getElementById('orientation-message');
+				if (!msg) return;
+				if (window.screen.width < 768 && window.innerHeight > window.innerWidth) {
+					msg.style.display = 'flex';
+				} else {
+					msg.style.display = 'none';
+				}
 			}
-		}
-		
-		// Initial check
-		window.addEventListener('load', checkOrientation);
-		// Check on orientation change
-		window.addEventListener('resize', checkOrientation);
-		window.addEventListener('orientationchange', checkOrientation);
-	</script> -->
-	
+			window.addEventListener('load', checkOrientation);
+			window.addEventListener('resize', checkOrientation);
+			window.addEventListener('orientationchange', function() {
+				setTimeout(checkOrientation, 300);
+			});
+		})();
+	</script>
 </head>
 <body>
 	<div id="orientation-message" style="display:none;">
 		<div class="orientation-content">
-			<p>Please rotate your device to landscape mode</p>
+			<p>请将设备旋转至横屏模式以获得最佳体验</p>
 		</div>
 	</div>
 	<div id="wrapper">

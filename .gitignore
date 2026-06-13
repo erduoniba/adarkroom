@@ -8,3 +8,5 @@ lang/.DS_Store
 node_modules
 img/Thumbs.db
 dist/
+
+venv/

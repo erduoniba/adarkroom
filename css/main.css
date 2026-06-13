@@ -1,6 +1,6 @@
 /* Fonts */
 body, .tooltip, select.menuBtn {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "KaiTi", "STKaiti", "楷体", "Times New Roman", Times, serif;
 	font-size: 16px;
 	font-weight: normal;
 	line-height: normal;
@@ -14,6 +14,8 @@ html {
 body {
 	height: 100%;
 	margin: 0;
+	background-color: #f5f0e8;
+	color: #2c1810;
 }
 
 ::selection {
@@ -225,12 +227,12 @@ div#notifyGradient {
 	left: 0px;
 	height: 100%;
 	width: 100%;
-	background-color: white;
+	background-color: #f5f0e8;
 	background: -webkit-linear-gradient(
-		rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%
+		rgba(245, 240, 232, 0) 0%, rgba(245, 240, 232, 1) 100%
 	);
 	background: linear-gradient(
-		rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%
+		rgba(245, 240, 232, 0) 0%, rgba(245, 240, 232, 1) 100%
 	);
 	filter: alpha(
 		Opacity=0, FinishOpacity=100, Style=1, StartX=0, StartY=0, FinishX=0, FinishY=500
@@ -429,48 +431,55 @@ div.tooltip:hover {
 
 /* Events */
 
-.eventPanel {
-	background: none repeat scroll 0 0 white;
-	border: 2px solid transparent;
-	padding: 20px;
+/* 弹窗遮罩：全屏 flex 居中容器 */
+#eventMask {
 	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 335px;
-	z-index: 20;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 19;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.2s;
+}
+
+#eventMask.show {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.eventPanel {
+	background: none repeat scroll 0 0 #f5f0e8;
+	padding: 30px 20px 20px 20px;
+	position: relative;
+	width: 420px;
+	max-width: 90vw;
+	max-height: 85vh;
+	overflow-y: auto;
+	font-size: 16px;
 }
 
 body.noMask .eventPanel {
 	background-color: black;
 }
 
-.eventPanel:before {
-	background-color:white;
-	opacity: 0.6;
-	content: " ";
-	height: 700px;
-	left: -252px;
-	position: absolute;
-	top: -75px;
-	width: 920px;
-	z-index: -2;
-}
-
-body.noMask .eventPanel:before {
-	opacity: 0;
-}
-
 .eventPanel:after {
 	position: absolute;
-	top: -2px;
-	left: -2px;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 	content: " ";
-	border: 2px solid black;
-	box-shadow: 5px 5px 5px #666666;
+	border: 2px solid #8b7355;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 	z-index: -2;
+	pointer-events: none;
+	box-sizing: border-box;
 }
 
 body.noMask .eventPanel:after {
@@ -487,40 +496,34 @@ body.noMask .eventPanel .button {
 	color: white;
 }
 
+/* 标题：放在面板内部顶部，不用 absolute 避免被裁剪 */
 .eventTitle {
-	display: inline-block;
 	font-weight: bold;
-	position: absolute;
-	top: -12px;
+	font-size: 16px;
+	margin-bottom: 16px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #8b7355;
 }
 
 body.noMask .eventTitle {
 	color: white;
+	border-bottom-color: #888;
 }
 
-.eventTitle:after {
-	background-color: white;
-	bottom: 32%;
-	content: " ";
-	height: 5px;
-	left: 0;
-	position: absolute;
-	width: 100%;
-	z-index: -1;
-}
-
-body.noMask .eventTitle:after {
-	background-color: black;
-}
-
+/* 内容区域滚动 */
 #description {
 	position: relative;
-	min-height: 100px;
+	min-height: 40px;
+	max-height: 50vh;
+	overflow-y: auto;
 }
 
 #description textarea {
 	width: 100%;
-	height: 225px;
+	height: 200px;
+	max-height: 40vh;
+	font-size: 16px;
+	box-sizing: border-box;
 }
 
 body.noMask #description {
@@ -664,21 +667,65 @@ body.noMask #description {
 	text-decoration: underline;
 }
 
+/* ========== 响应式布局 ========== */
+/* 注：手机端 viewport=700，故 max-width:768px 匹配手机和平板竖屏 */
+
+/* 平板竖屏及手机 (viewport=700) */
 @media (max-width: 768px) {
 	div#wrapper {
-		width: 95%;
-		padding: 10px;
+		padding: 10px 0;
 	}
-	
-	div#notifications {
-		margin-bottom: 10px;
-	}
-	
+
 	div#content {
 		height: auto;
 		min-height: 500px;
 	}
+
+	/* 触控优化 */
+	div.button {
+		padding: 10px 10px;
+		margin-bottom: 10px;
+		min-height: 24px;
+	}
+
+	.menu span {
+		margin-left: 14px;
+		font-size: 15px;
+		padding: 6px 6px;
+	}
+
+	div#notifications {
+		margin-bottom: 10px;
+		width: 95%;
+	}
+
+	/* 资源面板 */
+	div#stores, div#weapons, div#village {
+		width: 180px;
+	}
 }
+
+/* 横屏手机 (高度受限) */
+@media (max-height: 500px) {
+	div#wrapper {
+		padding: 5px 0;
+	}
+
+	div#content {
+		min-height: 300px;
+	}
+
+	.menu {
+		bottom: 2px;
+	}
+
+	.eventPanel {
+		max-height: 90vh;
+		overflow-y: auto;
+	}
+}
+
+/* ========== 竖屏提示遮罩 ========== */
 
 #orientation-message {
 	position: fixed;
@@ -688,7 +735,7 @@ body.noMask #description {
 	height: 100%;
 	background-color: rgba(0,0,0,0.9);
 	z-index: 9999;
-	display: flex;
+	display: none;
 	justify-content: center;
 	align-items: center;
 }
@@ -696,9 +743,18 @@ body.noMask #description {
 #orientation-message .orientation-content {
 	color: white;
 	text-align: center;
-	font-size: 24px;
+	font-size: 20px;
 	padding: 20px;
 	border: 2px solid white;
 	border-radius: 10px;
 	background-color: rgba(0,0,0,0.7);
+	max-width: 90vw;
+}
+
+/* ========== 平板适配 ========== */
+
+@media (min-width: 769px) {
+	div#wrapper {
+		padding: 20px 0;
+	}
 }
