@@ -75,10 +75,17 @@
       debug: false,
       log: false,
       dropbox: false,
-      doubleTime: false
+      doubleTime: false,
+      tenTimes: false
     },
 
     init: function(options) {
+      // 从 URL 参数读取 debug 模式
+      var urlDebug = (location.search.indexOf('debug=true') >= 0);
+      if(urlDebug) {
+        options = options || {};
+        options.debug = true;
+      }
       this.options = $.extend(
         this.options,
         options
@@ -158,6 +165,16 @@
         .text(_('hyper.'))
         .click(Engine.confirmHyperMode)
         .appendTo(menu);
+
+	      // Debug 10x speed button
+	      if(Engine._debug) {
+	        var dbgBtn = document.createElement('span');
+	        dbgBtn.className = 'debugSpeed menuBtn';
+	        dbgBtn.textContent = _('debug 100x.');
+	        dbgBtn.onclick = Engine.toggleDebugSpeed;
+	        menu[0].appendChild(dbgBtn);
+	      }
+
 
       $('<span>')
         .addClass('menuBtn')
@@ -587,12 +604,30 @@
 
     triggerHyperMode: function() {
       Engine.options.doubleTime = !Engine.options.doubleTime;
+      // 10x and 2x are mutually exclusive
+      if(Engine.options.doubleTime && Engine.options.tenTimes) {
+        Engine.options.tenTimes = false;
+        $('.debugSpeed').text(_('debug 100x.'));
+      }
       if(Engine.options.doubleTime)
         $('.hyper').text(_('classic.'));
       else
         $('.hyper').text(_('hyper.'));
 
       $SM.set('config.hyperMode', Engine.options.doubleTime, false);
+    },
+
+    toggleDebugSpeed: function() {
+      Engine.options.tenTimes = !Engine.options.tenTimes;
+      // 10x and 2x are mutually exclusive
+      if(Engine.options.tenTimes && Engine.options.doubleTime) {
+        Engine.options.doubleTime = false;
+        $('.hyper').text(_('hyper.'));
+      }
+      if(Engine.options.tenTimes)
+        $('.debugSpeed').text(_('normal speed.'));
+      else
+        $('.debugSpeed').text(_('debug 100x.'));
     },
 
     // Gets a guid
@@ -839,7 +874,10 @@
     },
 
     setInterval: function(callback, interval, skipDouble){
-      if( Engine.options.doubleTime && !skipDouble ){
+      if( Engine.options.tenTimes && !skipDouble ){
+        Engine.log('Debug 100x speed, cutting interval by 100');
+        interval /= 100;
+      } else if( Engine.options.doubleTime && !skipDouble ){
         Engine.log('Double time, cutting interval in half');
         interval /= 2;
       }
@@ -850,7 +888,10 @@
 
     setTimeout: function(callback, timeout, skipDouble){
 
-      if( Engine.options.doubleTime && !skipDouble ){
+      if( Engine.options.tenTimes && !skipDouble ){
+        Engine.log('Debug 100x speed, cutting timeout by 100');
+        timeout /= 100;
+      } else if( Engine.options.doubleTime && !skipDouble ){
         Engine.log('Double time, cutting timeout in half');
         timeout /= 2;
       }

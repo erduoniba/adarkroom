@@ -87,3 +87,6 @@ npm run translate
 ```
 
 This will convert all .po files in the lang directory to their corresponding .js files.
+
+
+/ralph-loop:ralph-loop "根据 金庸武侠剧本/改造方案.md 拆解落地任务，然后以此实现" --max-iterations 10 --completion-promise "COMPLETE"

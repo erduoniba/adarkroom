@@ -51,7 +51,7 @@ div#saveNotify {
 	position: fixed;
 	top: 10px;
 	right: 20px;
-	background: white;
+	background: #f5f0e8;
 	opacity: 0;
 }
 
@@ -85,14 +85,20 @@ div#header {
 	position: fixed;
 	right: 10px;
 	bottom: 10px;
-	color: #666;
+	color: #8b7355;
 	z-index: 10;
 }
 
 .menu span {
 	cursor: pointer;
 	float: right;
-	margin-left: 20px;
+	margin-left: 16px;
+	font-size: 13px;
+	transition: color 0.15s;
+}
+
+.menu span:hover {
+	color: #8b0000;
 }
 
 .customSelect {
@@ -152,13 +158,14 @@ div.headerButton {
 	font-size: 17px;
 	cursor: pointer;
 	float: left;
-	border-left: 1px solid black;
+	border-left: 1px solid #8b7355;
 	margin-left: 10px;
-	padding-left: 10px;
+	padding: 2px 0 2px 10px;
+	transition: color 0.15s;
 }
 
 div.headerButton:hover {
-	text-decoration: underline;
+	color: #ffd700;
 }
 
 div.headerButton:first-child {
@@ -169,7 +176,8 @@ div.headerButton:first-child {
 
 div.headerButton.selected, div.headerButton.selected:hover {
 	cursor: default;
-	text-decoration: underline;
+	color: #ffd700;
+	font-weight: bold;
 }
 
 div#outerSlider {
@@ -244,7 +252,8 @@ div#notifyGradient {
 div.button {
 	position: relative;
 	text-align: center;
-	border: 1px solid black;
+	border: 1px solid #8b7355;
+	border-radius: 3px;
 	width: 100px;
 	margin-bottom: 5px;
 	padding: 5px 10px;
@@ -255,17 +264,21 @@ div.button {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	transition: background-color 0.15s, border-color 0.15s;
 }
 
 div.button:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	background-color: #c4a87c;
+	border-color: #8b0000;
 }
 
 div.button.disabled, div.button.disabled:hover {
 	cursor: default;
-	border-color: #b2b2b2;
-	color: #b2b2b2;
+	border-color: #c4b99a;
+	color: #a09080;
 	text-decoration: none;
+	background-color: transparent;
 }
 
 div.button div.cooldown {
@@ -274,7 +287,8 @@ div.button div.cooldown {
 	left: 0px;
 	z-index: -1;
 	height: 100%;
-	background-color: #DDDDDD;
+	border-radius: 2px;
+	background-color: #d4c5a9;
 }
 
 /* Up/Down buttons. They're complicated! */
@@ -390,10 +404,10 @@ div.button div.tooltip {
 div.tooltip {
 	display: none;
 	padding: 2px 5px;
-	border: 1px solid black;
+	border: 1px solid #8b7355;
 	position: absolute;
-	box-shadow: -1px 3px 2px #666;
-	background: white;
+	box-shadow: -1px 3px 2px rgba(0,0,0,0.2);
+	background: #f5f0e8;
 	z-index: 999;
 }
 
@@ -659,19 +673,19 @@ body.noMask #description {
 }
 
 #dropMenu {
-	background: none repeat scroll 0 0 white;
-	border: 1px solid black;
+	background: none repeat scroll 0 0 #f5f0e8;
+	border: 1px solid #8b7355;
 	position: absolute;
 	z-index: 100;
 	padding-top: 5px;
 	text-align: left;
-	box-shadow: -1px 3px 2px #666;
+	box-shadow: -1px 3px 2px rgba(0,0,0,0.2);
 	cursor: default;
 }
 
 #dropMenu:before {
 	content: attr(data-legend);
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #8b7355;
 	display: block;
 	margin-bottom: 5px;
 	padding: 0px 0px 5px 5px;

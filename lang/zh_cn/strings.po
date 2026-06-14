@@ -160,7 +160,7 @@ msgstr "寒冰真气护体，不惧干渴"
 
 #: script/engine.js:47
 msgid "evasive"
-msgstr "凌波微步"
+msgstr "轻功身法"
 
 #: script/engine.js:48
 msgid "dodge attacks more effectively"
@@ -168,11 +168,11 @@ msgstr "闪避更加灵活"
 
 #: script/engine.js:49
 msgid "learned to be where they're not"
-msgstr "步法飘忽，如凌波而行"
+msgstr "步法飘忽，来去如风"
 
 #: script/engine.js:52
 msgid "precise"
-msgstr "独孤九剑"
+msgstr "剑法精准"
 
 #: script/engine.js:53
 msgid "land blows more often"
@@ -180,7 +180,7 @@ msgstr "攻击更加精准"
 
 #: script/engine.js:54
 msgid "learned to predict their movement"
-msgstr "料敌机先，后发先至"
+msgstr "料敌机先，一击必中"
 
 #: script/engine.js:57
 msgid "scout"
@@ -208,7 +208,7 @@ msgstr "踏雪无痕，来去无踪"
 
 #: script/engine.js:67
 msgid "gastronome"
-msgstr "北冥神功"
+msgstr "吐纳心法"
 
 #: script/engine.js:68
 msgid "restore more health when eating"
@@ -216,15 +216,15 @@ msgstr "进食恢复更多生命"
 
 #: script/engine.js:69
 msgid "learned to make the most of food"
-msgstr "以真气化为生机，丹药效力倍增"
+msgstr "以吐纳之法化药力，丹药效力倍增"
 
 #: script/engine.js:143 script/engine.js:808
 msgid "sound on."
-msgstr "打开声音"
+msgstr "开启音律"
 
 #: script/engine.js:149 script/engine.js:534
 msgid "lights off."
-msgstr "熄灯"
+msgstr "夜行"
 
 #: script/engine.js:155 script/engine.js:570
 msgid "hyper."
@@ -232,11 +232,11 @@ msgstr "加速"
 
 #: script/engine.js:161 script/space.js:536
 msgid "restart."
-msgstr "重来"
+msgstr "重开江湖"
 
 #: script/engine.js:167
 msgid "share."
-msgstr "分享"
+msgstr "传颂江湖"
 
 #: script/engine.js:173
 msgid "save."
@@ -248,7 +248,7 @@ msgstr "语言"
 
 #: script/engine.js:182
 msgid "dropbox."
-msgstr "云端存档"
+msgstr "云端"
 
 #: script/engine.js:286
 msgid "Export / Import"
@@ -356,7 +356,7 @@ msgstr "江湖令(红迪)"
 
 #: script/engine.js:525 script/engine.js:529
 msgid "lights on."
-msgstr "点灯"
+msgstr "白昼"
 
 #: script/engine.js:542
 msgid "Go Hyper?"
@@ -369,7 +369,7 @@ msgstr "开启加速模式后，江湖流速将变为2倍。确定吗？"
 
 #: script/engine.js:568
 msgid "classic."
-msgstr "经典速度"
+msgstr "常速"
 
 #: script/engine.js:667
 #, python-brace-format
@@ -378,7 +378,7 @@ msgstr "{0} /{1}秒"
 
 #: script/engine.js:812
 msgid "sound off."
-msgstr "关闭声音"
+msgstr "静默江湖"
 
 #: script/engine.js:856
 #, fuzzy
@@ -545,7 +545,7 @@ msgstr "神兵阁"
 #: script/fabricator.js:9
 #, fuzzy
 msgid "energy blade"
-msgstr "倚天剑谱"
+msgstr "寒光剑谱"
 
 #: script/fabricator.js:11
 msgid "the blade hums, charged particles sparking and fizzing."
@@ -645,7 +645,7 @@ msgstr "已存档。"
 
 #: script/localization.js:5
 msgid "wood"
-msgstr "银两"
+msgstr "木柴"
 
 #: script/localization.js:6
 msgid "builder"
@@ -709,7 +709,7 @@ msgstr "九花玉露丸"
 
 #: script/localization.js:21 script/outside.js:22
 msgid "hunter"
-msgstr "采药弟子"
+msgstr "采猎弟子"
 
 #: script/localization.js:22 script/outside.js:30
 msgid "trapper"
@@ -721,7 +721,7 @@ msgstr "铸造弟子"
 
 #: script/localization.js:24
 msgid "grenade"
-msgstr "降龙十八掌"
+msgstr "排山掌法"
 
 #: script/localization.js:25
 msgid "bolas"
@@ -729,7 +729,7 @@ msgstr "缠丝擒拿手"
 
 #: script/localization.js:26
 msgid "bayonet"
-msgstr "倚天剑"
+msgstr "寒光剑"
 
 #: script/localization.js:27 script/outside.js:46
 msgid "charcutier"
@@ -785,7 +785,7 @@ msgstr "罗盘"
 
 #: script/localization.js:40
 msgid "laser rifle"
-msgstr "六脉神剑"
+msgstr "无相剑气"
 
 #: script/localization.js:41 script/outside.js:15
 msgid "gatherer"
@@ -805,7 +805,7 @@ msgstr "药材不足"
 
 #: script/localization.js:47
 msgid "not enough wood"
-msgstr "银两不足"
+msgstr "木柴不足"
 
 #: script/localization.js:48
 msgid "not enough coal"
@@ -1077,11 +1077,11 @@ msgstr "独轮车"
 
 #: script/room.js:33
 msgid "builder says she can make a cart for carrying wood"
-msgstr "前辈说可以打造一辆独轮车，方便运送银两。"
+msgstr "前辈说可以打造一辆独轮车，方便运送木柴。"
 
 #: script/room.js:34
 msgid "the rickety cart will carry more wood from the forest"
-msgstr "简陋的独轮车能从山林中运回更多银两。"
+msgstr "简陋的独轮车能从山林中运回更多木柴。"
 
 #: script/room.js:44
 msgid "hut"
@@ -1323,7 +1323,7 @@ msgstr "篝火{0}"
 msgid ""
 "the stranger is standing by the fire. she says she can help. says she builds "
 "things."
-msgstr "那名陌生人站在火堆旁。她说她可以帮忙。她说她会建东西"
+msgstr "老者站在篝火旁，说自己略通建造之术，可以相助。"
 
 #: script/room.js:617
 msgid "freezing"
@@ -1371,11 +1371,11 @@ msgstr "篝火通明的庙宇"
 
 #: script/room.js:679
 msgid "not enough wood to get the fire going"
-msgstr "银两不足，难以生火"
+msgstr "木柴不足，难以生火"
 
 #: script/room.js:693
 msgid "the wood has run out"
-msgstr "银两已用尽"
+msgstr "木柴已用尽"
 
 #: script/room.js:714
 msgid "the light from the fire spills from the windows, out into the dark"
@@ -1391,7 +1391,7 @@ msgstr "庙外风声呼啸"
 
 #: script/room.js:763
 msgid "the wood is running out"
-msgstr "银两即将告罄"
+msgstr "木柴即将告罄"
 
 #: script/room.js:770
 msgid "a ragged stranger stumbles through the door and collapses in the corner"
@@ -1490,27 +1490,27 @@ msgstr "裹足徘徊"
 
 #: script/space.js:41
 msgid "hull: "
-msgstr "船身:"
+msgstr "护体真气："
 
 #: script/space.js:78
 msgid "Troposphere"
-msgstr "对流层"
+msgstr "初窥门径"
 
 #: script/space.js:80
 msgid "Stratosphere"
-msgstr "平流层"
+msgstr "登堂入室"
 
 #: script/space.js:82
 msgid "Mesosphere"
-msgstr "中气层"
+msgstr "渐入佳境"
 
 #: script/space.js:84
 msgid "Thermosphere"
-msgstr "增温层"
+msgstr "炉火纯青"
 
 #: script/space.js:86
 msgid "Exosphere"
-msgstr "外逸层"
+msgstr "超凡入圣"
 
 #: script/space.js:88
 msgid "Space"
@@ -3338,11 +3338,11 @@ msgstr "他说他能用较少的木头建造小屋"
 
 #: script/events/room.js:278
 msgid "300 wood"
-msgstr "300银两"
+msgstr "300木柴"
 
 #: script/events/room.js:290 script/events/room.js:292
 msgid "the shady builder has made off with your wood"
-msgstr "那骗子偷走了你的银两"
+msgstr "那骗子偷走了你的木柴"
 
 #: script/events/room.js:302 script/events/room.js:304
 msgid "the shady builder builds a hut"
@@ -3356,7 +3356,7 @@ msgstr "神秘侠客"
 msgid ""
 "a wanderer arrives with an empty cart. says if he leaves with wood, he'll be "
 "back with more."
-msgstr "一名游商推着货车来到门派，说用银两换药材可以互利。"
+msgstr "一名游商推着货车来到门派，说用木柴换药材可以互利。"
 
 #: script/events/room.js:331
 msgid "builder's not sure he's to be trusted."
@@ -3382,7 +3382,7 @@ msgstr "神秘的流浪者回来了，货车上木头堆得更高了"
 msgid ""
 "a wanderer arrives with an empty cart. says if she leaves with furs, she'll "
 "be back with more."
-msgstr "一名游商推着货车来到门派，说用药材换银两可以互利。"
+msgstr "一名游商推着货车来到门派，说用药材换木柴可以互利。"
 
 #: script/events/room.js:411
 msgid "builder's not sure she's to be trusted."
@@ -4561,7 +4561,7 @@ msgstr "九花玉露丸不足"
 
 #: script/room.js
 msgid "not enough grenade"
-msgstr "降龙十八掌秘籍不足"
+msgstr "排山掌法秘籍不足"
 
 #: script/room.js
 msgid "not enough bolas"
@@ -4569,7 +4569,7 @@ msgstr "缠丝擒拿手秘籍不足"
 
 #: script/room.js
 msgid "not enough bayonet"
-msgstr "倚天剑谱不足"
+msgstr "寒光剑谱不足"
 
 #: script/room.js
 msgid "not enough bone spear"
@@ -4589,7 +4589,7 @@ msgstr "弹指神通秘籍不足"
 
 #: script/room.js
 msgid "not enough laser rifle"
-msgstr "六脉神剑秘籍不足"
+msgstr "无相剑气秘籍不足"
 
 #: script/room.js
 msgid "not enough compass"
@@ -4637,11 +4637,11 @@ msgstr "再多机关阵也无用了，此地已固若金汤。"
 
 #: script/room.js
 msgid "senior says she can build a wheelbarrow to carry more silver."
-msgstr "前辈说可以打造一辆独轮车，方便运送更多银两。"
+msgstr "前辈说可以打造一辆独轮车，方便运送更多木柴。"
 
 #: script/room.js
 msgid "the humble wheelbarrow makes silver transport from the forest much easier."
-msgstr "简陋的独轮车已造好，山林间的银两运输更便捷了。"
+msgstr "简陋的独轮车已造好，山林间的木柴运输更便捷了。"
 
 #: script/room.js
 msgid "senior says more displaced people have come down the mountain, we can take them as disciples."
@@ -4766,3 +4766,955 @@ msgstr "玄铁重剑，大巧不工。此剑一出，谁与争锋。"
 #: script/room.js
 msgid "propelling darts with inner power, hitting targets from afar, like the legendary finger flick technique."
 msgstr "以内力催动飞镖，百步穿杨，如传说中的弹指神通。"
+
+#: script/world.js
+msgid "disintegrate"
+msgstr "粉碎"
+
+#: script/world.js
+msgid "slice"
+msgstr "切削"
+
+#: script/world.js
+msgid "{0}:{1}"
+msgstr "{0}：{1}"
+
+
+#: script/ship.js / space.js / fabricator.js
+msgid "Penrose"
+msgstr "天梯"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "Command Deck"
+msgstr "心法殿"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "Engineering Wing"
+msgstr "经脉堂"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "A Ravaged Battleship"
+msgstr "一座废弃的修炼塔"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "approach"
+msgstr "靠近"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "observe"
+msgstr "观察"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "engage"
+msgstr "迎战"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "rush through"
+msgstr "冲过去"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "wait"
+msgstr "等待"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "blow it down"
+msgstr "以内力轰开"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "extinguish"
+msgstr "熄灭"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "power cycle"
+msgstr "运功循环"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "kinetic"
+msgstr "劲力"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "blueprints"
+msgstr "秘籍残卷"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "glow stone"
+msgstr "夜明珠"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "force locker"
+msgstr "真气锁柜"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "emits a soft red glow"
+msgstr "散发着柔和的红光"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "broken medic"
+msgstr "损坏的疗伤机关"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "unruly welder"
+msgstr "失控的铸造机关"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "immortal wanderer"
+msgstr "不死武痴"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "unstable automaton"
+msgstr "不稳的机关人"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "unstable prototype"
+msgstr "不稳定的试作品"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "automated turret"
+msgstr "自动机关弩"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "defence turret"
+msgstr "防御机关弩"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "mechanical guard"
+msgstr "机关守卫"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "mechanical quadruped"
+msgstr "机关四足兽"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "murderous robot"
+msgstr "杀戮机关"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "two-headed creature"
+msgstr "双头妖兽"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "malformed experiment"
+msgstr "畸形的实验品"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "A Two-Headed Creature"
+msgstr "双头妖兽"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "A Whirring Fabricator"
+msgstr "嗡鸣的神兵阁"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the interior of the ship is cold and dark. what little light there is only accentuates its harsh angles."
+msgstr "塔内冰冷漆黑，微弱的光芒只映照出四周冷峻的轮廓。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "it lists to the side in a deep crevasse, cut when it fell from the sky."
+msgstr "修炼塔斜倚在深谷之中，仿佛从天而降时被劈开。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "it's no mystery why she no longer flies."
+msgstr "难怪它再也无法翱翔九天。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the remains of a massive battleship lie here, like a silent sealed city."
+msgstr "一座巨大战船的残骸静卧于此，如同一座沉默的封印之城。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the remains of a huge ship are embedded in the earth."
+msgstr "一艘巨舟的残骸嵌入大地之中。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the hatches are all sealed, but the hull is blown out just above the dirt, providing an entrance."
+msgstr "所有舱门都已封闭，但塔身在近地处破开一个缺口，可作入口。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "maps of the surface can still be found amongst the debris."
+msgstr "废墟中仍能找到地表的地图。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "documents are scattered down the hall, most charred and curled."
+msgstr "走廊里散落着文书，大多已焦黑卷曲。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a large hatch grinds open, and the wind rushes in."
+msgstr "一道沉重的石门缓缓打开，劲风涌入。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a large hatch opens into a wide corridor."
+msgstr "石门开启，露出一条宽阔的走廊。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the corridor leads to a bank of elevators, which appear to be functional."
+msgstr "走廊尽头是一排升降台，看起来仍可使用。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "another door at the end of the hall, sealed from this side."
+msgstr "走廊尽头又有一道门，从这边封死了。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "another checkpoint ahead, fitted with heavy doors."
+msgstr "前方又一道关卡，装着厚重的铁门。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the command deck is empty, save for a squat figure sitting motionless in the centre of the room."
+msgstr "心法殿中空无一人，唯有殿中央一个矮壮的影子盘坐不动。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the path to the command bridge is wide, walls adorned with decorative shields."
+msgstr "通往心法殿的路宽阔无比，墙上装饰着古老的盾牌。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "beyond the bulkhead is a small antechamber, seemingly untouched by scavengers."
+msgstr "隔板之后是一间小前厅，似乎未被探索者染指。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "elevator doors open to an empty corridor."
+msgstr "升降门开启，露出一条空荡的走廊。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "elevator doors open to a blasted corridor. debris covers the floor, piled into makeshift defences."
+msgstr "升降门打开，眼前是一条被炸毁的走廊。满地碎石，堆成了临时防线。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "further along, the corridor branches."
+msgstr "再往前，走廊分岔了。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the corridor opens onto a vast training complex, obstacles and features blackened by real combat."
+msgstr "走廊通入一片广阔的练功场，障碍物上满是真刀真枪留下的焦痕。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the corridor passes through a security checkpoint. the defences are blown apart, ragged edges scorched by laser fire."
+msgstr "走廊穿过一道安检关卡。防御设施已被轰碎，边缘残留着灼烧的痕迹。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "crew cabins flank the hall, devoid of life."
+msgstr "弟子厢房排列在走廊两侧，空无一人。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "past the checkpoint, banks of containment cells can be seen."
+msgstr "过了关卡，可见一排排囚室。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "past the checkpoint, the corridor is undamaged save for sporadic graffiti."
+msgstr "过了关卡，走廊完好无损，只有零星的涂鸦。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "containment cells arranged at the back of the room, all open."
+msgstr "囚室排列在房间后方，全都敞开着。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "detour through the officer's lounge."
+msgstr "绕道穿过长老休息室。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "at the back of the workshop, elevator doors twitch and buzz."
+msgstr "锻造间深处，升降门颤抖着发出嗡嗡声。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a maintenance panel is embedded in the wall next to a large sealed door."
+msgstr "墙壁上嵌着一块机关面板，旁边是一扇巨大的封印之门。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "debris is stacked in the corridor, forming a low barricade."
+msgstr "碎石堆在走廊中，形成一道低矮的壁垒。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "large barricades bisect the corridor, scorched by weapons fire."
+msgstr "巨大的路障将走廊一分为二，上面满是兵刃灼痕。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "looks like they tried to barricade the elevators."
+msgstr "看来他们曾试图封堵升降台。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "behind the barricade, a few weapons lay abandoned."
+msgstr "路障后面，散落着几件被遗弃的兵器。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "none of the ship's engines escaped the destruction."
+msgstr "塔中所有动力机关都在浩劫中毁于一旦。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "must have been the engine room, once. the massive machines now stand inert, twisted and scorched by explosions."
+msgstr "这里曾是动力室。巨大的机关如今静立不动，被爆炸扭曲烧焦。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the destruction is uniform and precise."
+msgstr "破坏均匀而精准，显然是刻意为之。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "signs of battle are visible in several places, and what must have been a security checkpoint has been thoroughly demolished."
+msgstr "多处可见战斗痕迹，一处安检关卡已被彻底摧毁。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the partially devoured remains of several wanderers are piled before a dark corridor."
+msgstr "几具被啃食过半的侠客遗骸堆在一条黑暗的走廊前。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "this ward has been converted to a makeshift strategy room, maps scrawled hastily on any flat surface."
+msgstr "此处已被改造成了临时军机房，地图潦草地画在各种平面上。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the walls hum faintly."
+msgstr "墙壁隐隐发出低鸣。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a sparring automaton, still fully function and crusted with timeworn blood, lunges forward."
+msgstr "一具训练机关人竟仍能运转，浑身沾满陈年血迹，猛扑过来。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a huge arthropod lunges from the shadows, its mandibles thrashing."
+msgstr "一只巨大的节肢妖兽从暗影中扑出，双颚狂乱挥舞。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a two-headed creature appears, the smaller head trembling"
+msgstr "一只双头妖兽现身了，较小的那颗头颅在不停颤抖"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "an unfinished automaton whirs to life."
+msgstr "一具未完成的机关人嗡嗡启动。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a medical drone wheels out of control."
+msgstr "一台疗伤机关失控地旋转。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "automated guardians still stalk the halls, unaware that their masters have long gone."
+msgstr "自动守卫仍在走廊中徘徊，浑然不知主人早已离去。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "security drones still patrol the hallways."
+msgstr "巡逻机关仍在走廊中游荡。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "as the lights come online, so too do the defence systems."
+msgstr "灯火亮起的瞬间，防御系统也随之激活。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "one of the defence turrets still works."
+msgstr "其中一座防御机关弩竟还能运转。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "assembly arms spark and jitter."
+msgstr "组装臂冒出火花，剧烈抖动。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "assembly arms spin wildly out of control."
+msgstr "组装臂疯狂旋转，失去控制。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a strange device sits on the floor. looks important."
+msgstr "地上放着一个奇怪的装置，看起来很重要。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a smooth, perfect sphere. its light is inextinguishable."
+msgstr "一个光滑完美的球体，其光芒永不熄灭。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "wanderer form, but not quite flesh. not quite metal either. a crystal set into its chest pulses with light."
+msgstr "侠客之形，却非血肉之躯，亦非金石之物。胸前一颗水晶闪烁着光芒。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "in a flash, the figure is standing."
+msgstr "刹那间，那身影已站了起来。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "it says it saw the rebellion coming. said it made arrangements."
+msgstr "它说它早已预见叛乱。它说它已做好了安排。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "says it can't die."
+msgstr "它说自己不会死。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the immortal wanderer attacks."
+msgstr "不死武痴发起了攻击！"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the creature's tortured breathing ceases."
+msgstr "妖兽痛苦的喘息终于停止了。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the crystal pulses brightly, then goes dark. the assailant shimmers as its shape becomes less defined."
+msgstr "水晶猛然一亮，随即黯淡。袭击者的轮廓开始闪烁模糊。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "more signs of past combat down the hall. guard post is ransacked."
+msgstr "走廊深处更多战斗痕迹。哨站已被洗劫一空。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "through the bulkhead is a large room, walls lined with weapon racks. fighting seems to have passed it by."
+msgstr "隔板之后是一间大室，墙上排列着兵器架。战火似乎未曾波及此地。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "their weapons lie on the floor beside them."
+msgstr "他们的兵器散落在身旁的地上。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the guards died at their posts, shot through with superheated plasma."
+msgstr "守卫们死于自己的岗位上，被炽热的真气贯穿。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "if only they'd been destroyed along with everything else."
+msgstr "要是它们和其他东西一起被摧毁了就好了。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the noise draws attention."
+msgstr "声响引来了注意。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "drew some attention with all that noise."
+msgstr "刚才的动静引来了注意。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "tripped a motion sensor."
+msgstr "触动了机关感应。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "ran straight into another one."
+msgstr "直接撞上了另一个。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "slipped past an automated sentry."
+msgstr "悄悄绕过了自动哨兵。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "slipped through unnoticed."
+msgstr "悄然穿过，未被发现。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "better to move without drawing attention."
+msgstr "最好悄无声息地行动。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "easily avoided."
+msgstr "轻松避开了。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "predictable paths."
+msgstr "行动轨迹毫无新意。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "clumsy machines, and easily avoided."
+msgstr "笨拙的机关人，轻易便避开了。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "they take no notice of the intrusion."
+msgstr "它们全然未察觉闯入者。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "found some medical supplies in a discarded bag."
+msgstr "在一个被遗弃的布袋中找到了些药物。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "small weapons cache in a cabinet."
+msgstr "柜中藏着一小批兵器。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a secure locker is set into one wall."
+msgstr "墙上嵌着一个牢固的储物柜。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "this one looks useful."
+msgstr "这个看起来有用。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "this one looks interesting."
+msgstr "这个看起来有意思。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a small knapsack hangs from a cluster of webs, a few feet from the floor."
+msgstr "一个小包袱挂在蛛网丛中，离地数尺。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "weapons are strewn about the medical dispatch bay. must have been used as a muster point."
+msgstr "兵器散落在疗伤分派处。这里想必曾被用作集结地。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "could put the scrap to good use."
+msgstr "这些残骸或许能派上用场。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "bits of them can be scavenged."
+msgstr "可从中搜刮一些零件。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "scraps of copper wire litter the floor."
+msgstr "地上散落着铜丝碎片。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "some completed explosives in the corner."
+msgstr "角落里堆着些已制成的火药。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "samples of something biological inside."
+msgstr "里面装着某种生物的样本。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "take device and leave"
+msgstr "取走装置，离开"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "experimental plans cover one wall, held by an unseen force."
+msgstr "一墙的实验图纸，被无形之力固定在墙上。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "marks on the door read 'research and development.' everything seems mostly untouched, but dead."
+msgstr "门上写着'研习与开发'。一切完好未动，却毫无生机。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "air whistles as the doors open. this section must have lower pressure than the rest of the ship."
+msgstr "门一开，风声呼啸。此处的气压想必低于塔中其他区域。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "deeper into the ship, the darkness seems almost to writhe."
+msgstr "塔中深处，黑暗仿佛有了生命，蠢蠢欲动。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "emergency lighting flickers."
+msgstr "应急灯火明灭不定。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the air in this room has a metallic tinge. floor is covered in dark powder."
+msgstr "此室空气中弥漫着金属气味，地面覆满黑色粉末。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the air is cooler here. low cabinets ring the room, doors dusted with frost."
+msgstr "此处空气清冷。低矮的柜子环列房间，柜门上结满霜花。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "power cables running across the ceiling are split in several places, sparking occasionally."
+msgstr "贯穿天花板的真气导管多处断裂，不时迸出火花。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "wires run overhead, corroded and useless."
+msgstr "头顶的电线早已锈蚀无用。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "crude attempts have been made to cut into the walls."
+msgstr "墙上可见试图凿穿的粗糙痕迹。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "thick, sticky webbing covers the walls of the corridor."
+msgstr "走廊墙壁覆满了厚厚的黏稠蛛网。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the webs part, and a grotesque insect lurches forward."
+msgstr "蛛网分开，一只丑陋的巨虫猛冲出来。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "ruined defence turrets flank the corridor."
+msgstr "损坏的防御机关弩分立走廊两侧。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "rows of inert security robots hang suspended from the ceiling."
+msgstr "一排排静止的守卫机关人悬挂在天花板上。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "medical gurneys are fixed to grooves running down the corridor walls."
+msgstr "疗伤轮床固定在走廊墙壁的凹槽中。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "surgical tools are scattered on the floor, near what appears the be the remains of a fire."
+msgstr "手术器械散落在地，旁边似乎是一堆篝火的残迹。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "more medical robots stand frozen, attached by a network of wires."
+msgstr "更多疗伤机关人冻结在原地，被一张电线网络连接着。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the automated patient transport system now sits motionless."
+msgstr "自动病人运输系统如今已静止不动。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a regenerative machine hums uncannily by one of the courses."
+msgstr "一台再生机关在一间修炼室旁发出诡异的嗡鸣。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "step inside, and the machine whirs. muscle and bone reknit. good as new."
+msgstr "踏入其中，机关嗡嗡运转。筋骨肌肉重新愈合，完好如初。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a handful of hypos. life in a vial."
+msgstr "一把黑玉断续膏。瓶中装着生机。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the familiar hum of wanderer machinery coming to life. finally, real tools."
+msgstr "熟悉的侠客机关嗡鸣启动。终于有了趁手的工具。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "one machine thrums with power, and might still work."
+msgstr "一台机关仍散发着内力的嗡鸣，或许还能运转。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a strange thrumming, pounding and crashing. and then gone."
+msgstr "一阵奇异的嗡鸣、撞击与碎裂声。然后归于寂静。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a strange thrumming, pounding and crashing. visions of people and places, of a huge machine and twisting curves."
+msgstr "奇异的嗡鸣、撞击与碎裂。眼前闪过人影与场景，一台巨机与蜿蜒的曲线。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "clattering metal and old servos. something is coming..."
+msgstr "金属碰撞与旧机关转动声。有什么东西正在靠近……"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "sparks cascade from a reactivated power junction, and catch."
+msgstr "重新激活的真气节点迸出火花，点燃了四周。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the flames fill the corridor."
+msgstr "火焰吞没了走廊。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the blast throws the door inwards."
+msgstr "爆炸将门向内轰开。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "metal grinds, and the elevator doors open halfway. beyond is a brightly lit battlefield. remains litter the corridor, undisturbed by scavengers."
+msgstr "金属摩擦声中，升降门半开。外面是一片灯火通明的战场。残骸散落走廊，未被拾荒者染指。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "motion from the centre of the yard."
+msgstr "院场中央有动静。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "small sensors in the walls still look to be operational."
+msgstr "墙上的小型感应器似乎仍在运转。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "perhaps the ship's systems are still operational."
+msgstr "也许塔中的机关系统仍在运转。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a few dusty corpses can be seen further down, but this deck appears to have been spared most of the combat."
+msgstr "远处可见几具覆满灰尘的尸体，但这层似乎避开了大部分战斗。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "fighting hadn't reached here, it seems."
+msgstr "战火似乎未曾蔓延至此。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "two bedrolls are wedged into a corner."
+msgstr "两个铺盖卷挤在角落里。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "more strange graffiti adorns the walls."
+msgstr "更多奇怪的涂鸦点缀着墙壁。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "lucky."
+msgstr "运气不错。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "picked this deck clean."
+msgstr "搜刮得干干净净。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "an automated assembly line performs its empty routines, long since deprived of materials."
+msgstr "一条自动装配线仍在执行着空无一物的流程，早已无材料可用。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "the machines here look unfinished, abandoned by their creator. wires and other scrap are scattered about the work benches."
+msgstr "此处的机关看起来尚未完工，已被创造者遗弃。电线与其他废料散落在工作台上。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a cacophony of decrepit machinery fills the room."
+msgstr "腐朽机关发出的刺耳噪音充斥着整个房间。"
+
+#: script/ship.js / space.js / fabricator.js
+msgid "a dusty researcher clumsily hides in the shadows."
+msgstr "一个满身灰尘的研习者笨拙地躲在阴影中。"
+
+#: script/fabricator.js
+msgid "fabricate:"
+msgstr "炼制："
+
+#: script/space.js
+msgid "inviting. it would be so easy to give in, completely."
+msgstr "诱人无比。就此沉沦，何等轻易。"
+
+#: script/ship.js
+msgid "perhaps the ship\u2019s systems are still operational."
+msgstr "也许塔中的机关系统仍在运转。"
+
+#: script/ship.js
+msgid "command deck"
+msgstr "心法殿"
+
+#: script/ship.js
+msgid "the door to the left is sealed and refuses to open."
+msgstr "左侧的门已被封印，纹丝不动。"
+
+
+#: script/events/executioner.js
+msgid "perhaps the ship’s systems are still operational."
+msgstr "也许塔中的机关系统仍在运转。"
+
+#: script/world.js
+msgid "builder knows the strange device when she sees it. takes it for herself real quick. doesn’t ask where it came from."
+msgstr "前辈一看到那奇怪的装置就心领神会。二话不说就收下了，也不问它从何而来。"
+
+#: script/events.js
+msgid "use hypo"
+msgstr "使用黑玉断续膏"
+
+#: script/events.js
+msgid "boost"
+msgstr "强化"
+
+#: script/events.js
+msgid "shield"
+msgstr "护体真气"
+
+#: script/prestige.js
+msgid "prestige"
+msgstr "转世重修"
+
+#: script/engine.js
+msgid "new game"
+msgstr "新的江湖"
+
+#: script/engine.js
+msgid "load game"
+msgstr "载入存档"
+
+#: script/space.js
+msgid "the end."
+msgstr "江湖路远，后会有期。"
+
+#: script/space.js
+msgid "Game Over"
+msgstr "江湖落幕"
+
+#: script/space.js
+msgid "review"
+msgstr "回首前尘"
+
+#: script/space.js
+msgid "app store"
+msgstr "江湖再会"
+
+#: script/events.js
+msgid "prepare"
+msgstr "准备"
+
+#: script/world.js
+msgid "water: {0}"
+msgstr "水：{0}"
+
+#: script/ship.js
+msgid "the ancient manual glows with inner power. the path to ascension lies within these pages. been in this mortal realm too long."
+msgstr "古卷散发着内力光芒。破碎虚空之道尽在其中。在这凡尘俗世已逗留太久了。"
+
+#: script/ship.js
+msgid "the time has come to leave this mortal world behind. there will be no return."
+msgstr "离开凡尘的时刻已到。此去再无归途。"
+
+#: script/ship.js
+msgid "stay a while longer"
+msgstr "再逗留片刻"
+
+#: script/events/global.js - 落难侠客
+msgid "The Wounded Wanderer"
+msgstr "落难侠客"
+msgid "a wounded martial artist stumbles to the gate, clutching a bloodied side."
+msgstr "一位受伤的侠客踉跄走到山门前，手捂着鲜血淋漓的肋部。"
+msgid "he says he was ambushed by mountain bandits. begs for medicine and shelter."
+msgstr "他说自己在山中被盗匪伏击，恳求药物和容身之所。"
+msgid "a wounded wanderer seeks help"
+msgstr "一位负伤的侠客前来求助"
+msgid "offer medicine and shelter"
+msgstr "施药留宿"
+msgid "turn him away"
+msgstr "将其逐走"
+msgid "the wanderer recovers after a few days of rest and medicine."
+msgstr "侠客在数日休养和药物调理后渐渐康复。"
+msgid "before leaving, he teaches the disciples a breathing technique to endure hunger."
+msgstr "临行前，他传授弟子一套吐纳之法，可忍饥耐饿。"
+msgid "the wanderer stumbles away into the darkness."
+msgstr "侠客踉跄地消失在夜色之中。"
+msgid "some of the disciples whisper that it was an ill omen to turn away one in need."
+msgstr "一些弟子窃窃私语，说见死不救是不祥之兆。"
+
+#: script/events/global.js - 游方商人
+msgid "The Wandering Merchant"
+msgstr "游方商人"
+msgid "a traveling merchant arrives at the gate with a caravan of rare goods."
+msgstr "一位游方商人带着一队满载奇珍异宝的马车来到山门前。"
+msgid "she offers to trade rare spirit bones and monster cores for your medicinal herbs."
+msgstr "她想用药材换取稀有的灵骨和内丹。"
+msgid "a merchant arrives with rare goods"
+msgstr "一位商人带着稀有货物到来"
+msgid "trade for spirit bones"
+msgstr "用药材换灵骨"
+msgid "trade for monster cores"
+msgstr "用药材换内丹"
+msgid "politely decline"
+msgstr "婉言谢绝"
+msgid "traded herbs for spirit bones."
+msgstr "用药材换得了一些灵骨。"
+msgid "traded herbs for monster cores."
+msgstr "用药材换得了一些内丹。"
+
+#: script/events/global.js - 江湖挑战者
+msgid "The Challenger"
+msgstr "江湖挑战者"
+msgid "a sword-wielding stranger stands at the gate, demanding a duel."
+msgstr "一位持剑的陌生人立于山门前，要求比武切磋。"
+msgid "defeat will bring shame, but victory will spread the sect's fame."
+msgstr "落败将蒙羞，但胜利将使门派声名远扬。"
+msgid "a challenger demands a duel"
+msgstr "一位挑战者前来约战"
+msgid "accept the challenge"
+msgstr "接受挑战"
+msgid "decline the duel"
+msgstr "拒绝比武"
+msgid "the duel is fierce but brief. the challenger acknowledges defeat with a bow."
+msgstr "比试激烈而短暂。挑战者拱手认输，深深一躬。"
+msgid "word of the victory spreads, attracting more disciples to the sect."
+msgstr "胜利的消息不胫而走，更多弟子慕名投奔门派。"
+msgid "the challenger scoffs and leaves, spreading word of the sect's cowardice."
+msgstr "挑战者冷笑而去，四处宣扬门派的怯懦。"
+msgid "some disciples seem disappointed."
+msgstr "一些弟子面露失望之色。"
+
+#: script/events/global.js - 山贼袭击
+msgid "The Bandit Raid"
+msgstr "山贼来袭"
+msgid "a band of mountain bandits descends upon the sect at dusk."
+msgstr "一伙山贼趁着暮色突袭了门派。"
+msgid "the disciples scramble, but the defenses are too weak to stop them."
+msgstr "弟子们慌乱应对，但防御太弱，抵挡不住。"
+msgid "bandits are raiding the sect!"
+msgstr "山贼正在洗劫门派！"
+msgid "fight them off"
+msgstr "奋力抵抗"
+msgid "pay them off"
+msgstr "花钱消灾"
+msgid "the disciples fight bravely, driving the bandits back into the mountains."
+msgstr "弟子们奋勇抵抗，将山贼赶回了深山。"
+msgid "the sect's reputation for courage grows."
+msgstr "门派的侠义之名因此传开。"
+msgid "the bandits take the silver and leave, laughing."
+msgstr "山贼取走木柴，大笑着扬长而去。"
+msgid "the disciples look at the ground in shame."
+msgstr "弟子们羞愧地低下了头。"
+
+#: script/events/global.js - 隐士高人
+msgid "The Hermit Master"
+msgstr "隐士高人"
+msgid "an old hermit appears at the sect gate, leaning on a wooden staff."
+msgstr "一位老者拄着木杖出现在山门前。"
+msgid "he says he has watched the sect grow and offers to share his sword technique."
+msgstr "他说他一直在暗中观察门派的成长，愿传授一套剑法。"
+msgid "a hermit master offers guidance"
+msgstr "一位隐士高人前来指点"
+msgid "learn the technique"
+msgstr "修习剑法"
+msgid "the hermit demonstrates a sword form of breathtaking precision."
+msgstr "隐士演示了一套精妙绝伦的剑法。"
+msgid "the disciples watch in awe as he cuts a falling leaf mid-air."
+msgstr "弟子们目瞪口呆地看着他一剑将飘落的树叶从中斩断。"
+msgid "after a week of training, their strikes land truer than ever before."
+msgstr "经过一周苦练，弟子们的剑招比以往精准了许多。"
+
+#: script/events/global.js - 妖兽出没
+msgid "The Beast Sighting"
+msgstr "妖兽出没"
+msgid "disciples report a large beast prowling near the sect grounds."
+msgstr "弟子来报，说山门附近有一只巨兽在徘徊。"
+msgid "its tracks are unlike anything seen before."
+msgstr "它的足迹前所未见，不似寻常野兽。"
+msgid "a strange beast has been sighted"
+msgstr "有人目击了一只奇怪的妖兽"
+msgid "organize a hunt"
+msgstr "组织围猎"
+msgid "leave it be"
+msgstr "不去管它"
+msgid "the hunting party returns victorious, dragging the beast's carcass."
+msgstr "围猎队伍凯旋而归，拖着妖兽的尸骸。"
+msgid "its scales and teeth will make fine crafting materials."
+msgstr "它的灵骨和内丹是上好的锻造材料。"
+msgid "the beast eludes the hunting party, leaving only deep claw marks on ancient trees."
+msgstr "妖兽甩掉了围猎队伍，只在古树上留下深深的爪痕。"
+msgid "the disciples return empty-handed but unharmed."
+msgstr "弟子们空手而归，但所幸无人受伤。"
+
+#: script/events/global.js - 武林大会
+msgid "The Tournament Invitation"
+msgstr "武林大会邀请"
+msgid "a messenger arrives with an invitation to the annual martial arts tournament."
+msgstr "一位使者送来了一年一度武林大会的请帖。"
+msgid "participation would bring great honor, but requires sending three of the best disciples."
+msgstr "参会将为门派带来无上荣耀，但需选派三名最优秀的弟子前往。"
+msgid "an invitation to the martial tournament arrives"
+msgstr "武林大会的请帖到了"
+msgid "send disciples"
+msgstr "派遣弟子"
+msgid "decline the invitation"
+msgstr "婉拒邀请"
+msgid "the disciples return triumphant, bearing trophies and prizes."
+msgstr "弟子们载誉归来，捧着奖杯和奖品。"
+msgid "the sect's name spreads far and wide across the jianghu."
+msgstr "门派之名传遍江湖，无人不知。"
+msgid "the disciples fought well but were outmatched."
+msgstr "弟子们奋力拼搏，但终究技不如人。"
+msgid "they return with new resolve to train harder."
+msgstr "他们带着更坚定苦练的决心归来。"
+
+#: script/events/global.js - 古卷奇遇
+msgid "The Ancient Manual"
+msgstr "古卷奇遇"
+msgid "while cleaning the storeroom, a disciple finds an ancient martial manual hidden behind a loose brick."
+msgstr "一名弟子在打扫库房时，在松动的砖后发现了半部古旧的武功秘籍。"
+msgid "the pages are yellowed but the diagrams are still clear."
+msgstr "书页已泛黄，但上面的图解依然清晰可辨。"
+msgid "an ancient martial manual has been discovered"
+msgstr "发现了一部古老的武功秘籍"
+msgid "study the manual"
+msgstr "研习秘籍"
+msgid "sell it to a collector"
+msgstr "卖给收藏家"
+msgid "the manual describes a powerful sword technique."
+msgstr "秘籍中记载了一套威力惊人的剑法。"
+msgid "after weeks of practice, the disciples' combat ability improves dramatically."
+msgstr "经过数周苦练，弟子们的战力大幅提升。"
+msgid "the manual is damaged and only fragments can be deciphered."
+msgstr "秘籍破损严重，只能解读出零星的片段。"
+msgid "still, even these fragments improve the disciples' techniques."
+msgstr "即便如此，这些残篇仍然提升了弟子们的武艺。"
+msgid "a wealthy collector pays handsomely for the ancient text."
+msgstr "一位富有的收藏家出了高价收购这部古卷。"
+msgid "the sect's treasury grows, but some disciples wonder what secrets were lost."
+msgstr "门派库房充盈了，但有些弟子不禁想，那秘籍中究竟藏着什么秘密。"
+
+#: script/events/global.js - 流民潮
+msgid "The Refugee Wave"
+msgstr "流民潮"
+msgid "a large group of refugees arrives at the sect gate, fleeing from war in the north."
+msgstr "一大群流民来到山门前，他们为躲避北方战乱而逃难至此。"
+msgid "they beg for shelter and food, promising to work in return."
+msgstr "他们恳求收容和食物，承诺以劳作回报。"
+msgid "refugees arrive seeking shelter"
+msgstr "流民前来寻求庇护"
+msgid "take them in"
+msgstr "收留他们"
+msgid "give food but turn them away"
+msgstr "赠予食物但拒之门外"
+msgid "the refugees are grateful and immediately set to work."
+msgstr "流民们感恩戴德，立刻开始劳作。"
+msgid "the sect gains many new disciples and a reputation for compassion."
+msgstr "门派新增了不少弟子，更赢得了仁义之名。"
+msgid "the refugees take the food with gratitude and continue their journey."
+msgstr "流民们感激地接过食物，继续踏上了旅途。"
+msgid "some disciples feel the sect could have done more."
+msgstr "有些弟子觉得门派本可以做得更多。"
+
+#: script/engine.js - debug 10x speed
+msgid "debug 100x."
+msgstr "100倍速"
+msgid "normal speed."
+msgstr "正常速度"

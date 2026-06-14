@@ -1,48 +1,60 @@
-div#buildBtns {
-	position: absolute;
-	top: 50px;
-	left: 0px;
+/* 建造/制作/交易按钮区域 */
+div#buildBtns, div#craftBtns, div#buyBtns {
+	position: relative;
+	margin-bottom: 12px;
+	margin-right: 220px;
+	padding-top: 18px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 6px;
 }
 
+/* 标签放在容器上方，不参与 flex 布局 */
 div#buildBtns:before, div#craftBtns:before, div#buyBtns:before {
 	content: attr(data-legend);
-	position: relative;
-	top: -5px;
-}
-
-div#craftBtns {
 	position: absolute;
-	top: 50px;
-	left: 150px;
+	top: 0;
+	left: 0;
+	font-weight: bold;
+	color: #8b0000;
+	font-size: 14px;
 }
 
-div#buyBtns {
-	position: absolute;
-	top: 50px;
-	left: 300px;
+/* 确保按钮不浮动 */
+div#buildBtns .button,
+div#craftBtns .button,
+div#buyBtns .button {
+	float: none;
+	margin: 0;
 }
 
+/* 资源面板：固定在右侧 */
 div#storesContainer {
 	position: absolute;
-	top: 0px;
+	top: 10px;
 	right: 0px;
+	z-index: 5;
 }
 
 div#stores:before, div#weapons:before {
 	position: absolute;
-	background: white;
+	background: #ebe5d9;
 	content: attr(data-legend);
 	left: 8px;
 	top: -13px;
+	font-size: 12px;
+	color: #8b7355;
 }
 
 div#stores {
 	position: relative;
-	z-index:10;
-	border: 1px solid black;
+	z-index: 10;
+	border: 1px solid #8b7355;
 	cursor: default;
 	padding: 5px 10px;
 	width: 200px;
+	background: #ebe5d9;
 }
 
 div.storeRow {
@@ -52,9 +64,9 @@ div.storeRow {
 div#weapons {
 	margin-top: 15px;
 	position: relative;
-	right: 0px;
-	border: 1px solid black;
+	border: 1px solid #8b7355;
 	cursor: default;
 	padding: 5px 10px;
 	width: 200px;
+	background: #ebe5d9;
 }

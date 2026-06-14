@@ -2,17 +2,19 @@ div#village {
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	border: 1px solid black;
+	border: 1px solid #8b7355;
 	cursor: default;
 	padding: 5px 10px;
 	width: 200px;
+	background: #ebe5d9;
 }
 
 div#population {
 	position: absolute;
 	top: -13px;
 	right: 10px;
-	background-color: white;
+	background-color: #ebe5d9;
+	font-size: 12px;
 }
 
 .noHuts #population {
@@ -21,14 +23,16 @@ div#population {
 
 div#village:before {
 	position: absolute;
-	background: white;
+	background: #ebe5d9;
 	content: attr(data-legend);
 	left: 8px;
 	top: -13px;
+	font-size: 12px;
+	color: #8b7355;
 }
 
 div#workers {
-	position:absolute;
+	position: absolute;
 	top: -4px;
 	left: 160px;
 	width: 150px;

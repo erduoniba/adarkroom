@@ -1,16 +1,21 @@
 #outfitting {
 	position: relative;
-	border: 1px solid black;
+	border: 1px solid #8b7355;
 	width: 200px;
 	margin-bottom: 20px;
 	padding: 5px 10px;
+	background: #ebe5d9;
 }
 
 div#outfitting:before, div#perks:before {
 	content: attr(data-legend);
 	position: absolute;
 	top: -13px;
-	background-color: white;
+	left: 8px;
+	background-color: #ebe5d9;
+	font-size: 12px;
+	color: #8b7355;
+	padding: 0 4px;
 }
 
 div.outfitRow {
@@ -34,20 +39,23 @@ div.outfitRow .tooltip {
 }
 
 div#bagspace {
-	background-color: white;
+	background-color: #ebe5d9;
 	position: absolute;
-	top:-13px;
+	top: -13px;
 	right: 10px;
+	font-size: 12px;
+	padding: 0 4px;
 }
 
 div#perks {
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	border: 1px solid black;
+	border: 1px solid #8b7355;
 	cursor: default;
 	padding: 5px 10px;
 	width: 200px;
+	background: #ebe5d9;
 }
 
 div.perkRow {
@@ -61,7 +69,6 @@ div.perkRow .row_key {
 #pathScroller {
 	padding-top: 10px;
 	position: relative;
-	top: -10px;
 	max-height: 660px;
 	width: 475px;
 	overflow-y: auto;

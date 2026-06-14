@@ -1,5 +1,5 @@
 /**
- * Module that registers the starship!
+ * Module that registers the martial arts cultivation!
  */
 var Ship = {
 	LIFTOFF_COOLDOWN: 120,
@@ -87,7 +87,7 @@ var Ship = {
 	onArrival: function(transition_diff) {
 		Ship.setTitle();
 		if(!$SM.get('game.spaceShip.seenShip')) {
-			Notifications.notify(Ship, _('somewhere above the debris cloud, the wanderer fleet hovers. been on this rock too long.'));
+			Notifications.notify(Ship, _('the ancient manual glows with inner power. the path to ascension lies within these pages. been in this mortal realm too long.'));
 			$SM.set('game.spaceShip.seenShip', true);
 		}
 		AudioEngine.playBackgroundMusic(AudioLibrary.MUSIC_SHIP);
@@ -137,7 +137,7 @@ var Ship = {
 				scenes: {
 					'start': {
 						text: [
-							_("time to get out of this place. won't be coming back.")
+							_("the time has come to leave this mortal world behind. there will be no return.")
 						],
 						buttons: {
 							'fly': {
@@ -149,7 +149,7 @@ var Ship = {
 								nextScene: 'end'
 							},
 							'wait': {
-								text: _('linger'),
+								text: _('stay a while longer'),
 								onChoose: function() {
 									Button.clearCooldown($('#liftoffButton'));
 								},

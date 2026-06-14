@@ -6,7 +6,7 @@
 #map {
 	position: relative;
 	font-family: "Courier New", Courier, monospace;
-	border: 1px solid black;
+	border: 1px solid #8b7355;
 	overflow: hidden;
 	display: inline-block;
 	line-height: 10px;
@@ -24,16 +24,17 @@
 #map .landmark {
 	position: relative;
 	font-weight: bold;
-	color: black;
-	line-height: 0px; /* Hack to prevent the boldness from increasing the row's line-height. I hope it works in all browsers... */
+	color: #8b0000;
+	line-height: 0px;
 }
 
 #bagspace-world {
-	border: 1px solid black;
+	border: 1px solid #8b7355;
 	height: 62px;
 	margin-bottom: 5px;
 	margin-top: 13px;
 	overflow: hidden;
+	background: #ebe5d9;
 }
 
 #bagspace-world > div {
@@ -44,31 +45,38 @@
 	position: absolute;
 	top: 0px;
 	left: 10px;
-	background-color: white;
+	background-color: #ebe5d9;
 	z-index: 1;
+	padding: 0 4px;
+	font-size: 12px;
 }
 
 #backpackSpace {
 	position: absolute;
 	top: 0px;
 	right: 10px;
-	background-color: white;
+	background-color: #ebe5d9;
 	z-index: 1;
+	padding: 0 4px;
+	font-size: 12px;
 }
 
 #healthCounter {
 	position: absolute;
 	top: 0px;
 	left: 80px;
-	background-color: white;
+	background-color: #ebe5d9;
 	z-index: 1;
+	padding: 0 4px;
+	font-size: 12px;
 }
 
 div.supplyItem {
 	display: inline-block;
-	border: 1px solid #999;
+	border: 1px solid #8b7355;
 	float: left;
 	margin: 0px 5px 6px 0px;
 	padding: 0 5px;
 	cursor: default;
+	background: #f5f0e8;
 }
