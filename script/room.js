@@ -14,8 +14,8 @@ var Room = {
 			name: _('trap'),
 			button: null,
 			maximum: 10,
-			availableMsg: _('builder says she can make traps to catch any creatures might still be alive out there'),
-			buildMsg: _('more traps to catch more creatures'),
+			availableMsg: _('senior says she can set up mechanism arrays to defend against beasts and foes.'),
+			buildMsg: _('another mechanism array is deployed, intruders will not escape its net.'),
 			maxMsg: _("more traps won't help now"),
 			type: 'building',
 			cost: function () {
@@ -30,8 +30,8 @@ var Room = {
 			name: _('cart'),
 			button: null,
 			maximum: 1,
-			availableMsg: _('builder says she can make a cart for carrying wood'),
-			buildMsg: _('the rickety cart will carry more wood from the forest'),
+			availableMsg: _('senior says she can build a wheelbarrow to carry more silver.'),
+			buildMsg: _('the humble wheelbarrow makes silver transport from the forest much easier.'),
 			type: 'building',
 			cost: function () {
 				return {
@@ -45,8 +45,8 @@ var Room = {
 			button: null,
 			maximum: 20,
 			availableMsg: _("builder says there are more wanderers. says they'll work, too."),
-			buildMsg: _('builder puts up a hut, out in the forest. says word will get around.'),
-			maxMsg: _('no more room for huts.'),
+			buildMsg: _('senior builds a disciple hut on the hillside. word will spread, more will come.'),
+			maxMsg: _('no more space on the mountain for disciple huts.'),
 			type: 'building',
 			cost: function () {
 				var n = $SM.get('game.buildings["hut"]', true);
@@ -60,8 +60,8 @@ var Room = {
 			name: _('lodge'),
 			button: null,
 			maximum: 1,
-			availableMsg: _('villagers could help hunt, given the means'),
-			buildMsg: _('the hunting lodge stands in the forest, a ways out of town'),
+			availableMsg: _('disciples can gather herbs in the mountains, given the proper tools.'),
+			buildMsg: _('the herb lodge is built deep in the forest, disciples can identify herbs there.'),
 			type: 'building',
 			cost: function () {
 				return {
@@ -92,7 +92,7 @@ var Room = {
 			button: null,
 			maximum: 1,
 			availableMsg: _("builder says leather could be useful. says the villagers could make it."),
-			buildMsg: _('tannery goes up quick, on the edge of the village'),
+			buildMsg: _('the forge workshop is built quickly on the west side, its furnace already burning.'),
 			type: 'building',
 			cost: function () {
 				return {
@@ -107,7 +107,7 @@ var Room = {
 			button: null,
 			maximum: 1,
 			availableMsg: _("should cure the meat, or it'll spoil. builder says she can fix something up."),
-			buildMsg: _('builder finishes the smokehouse. she looks hungry.'),
+			buildMsg: _('the pill refinery is complete, smoke rises from the furnace, the scent of medicine fills the air.'),
 			type: 'building',
 			cost: function () {
 				return {
@@ -169,7 +169,7 @@ var Room = {
 			name: _('torch'),
 			button: null,
 			type: 'tool',
-			buildMsg: _('a torch to keep the dark away'),
+			buildMsg: _('a fire striker, small but enough to light the way ahead.'),
 			cost: function () {
 				return {
 					'wood': 1,
@@ -183,7 +183,7 @@ var Room = {
 			button: null,
 			type: 'upgrade',
 			maximum: 1,
-			buildMsg: _('this waterskin\'ll hold a bit of water, at least'),
+			buildMsg: _('with a waterskin, at least you won\'t go thirsty in the jianghu.'),
 			cost: function () {
 				return {
 					'leather': 50
@@ -196,7 +196,7 @@ var Room = {
 			button: null,
 			type: 'upgrade',
 			maximum: 1,
-			buildMsg: _('the cask holds enough water for longer expeditions'),
+			buildMsg: _('the large cask holds more water, enough for long journeys.'),
 			cost: function () {
 				return {
 					'leather': 100,
@@ -210,7 +210,7 @@ var Room = {
 			button: null,
 			type: 'upgrade',
 			maximum: 1,
-			buildMsg: _('never go thirsty again'),
+			buildMsg: _('the water reservoir is complete, the mountain gate will never lack water.'),
 			cost: function () {
 				return {
 					'iron': 100,
@@ -237,7 +237,7 @@ var Room = {
 			button: null,
 			type: 'upgrade',
 			maximum: 1,
-			buildMsg: _('carrying more means longer expeditions to the wilds'),
+			buildMsg: _('with a travel bag, carrying more means traveling farther.'),
 			cost: function () {
 				return {
 					'leather': 200
@@ -250,7 +250,7 @@ var Room = {
 			button: null,
 			type: 'upgrade',
 			maximum: 1,
-			buildMsg: _('the wagon can carry a lot of supplies'),
+			buildMsg: _('the horse cart can carry a great amount of supplies, distant journeys are worry-free.'),
 			cost: function () {
 				return {
 					'wood': 500,
@@ -264,7 +264,7 @@ var Room = {
 			button: null,
 			type: 'upgrade',
 			maximum: 1,
-			buildMsg: _('the convoy can haul mostly everything'),
+			buildMsg: _('the escort convoy stretches far, it can haul almost anything.'),
 			cost: function () {
 				return {
 					'wood': 1000,

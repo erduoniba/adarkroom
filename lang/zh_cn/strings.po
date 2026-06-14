@@ -4514,3 +4514,255 @@ msgstr "头痛欲裂，眼前一片模糊。破庙中漆黑冰冷。"
 #: script/room.js
 msgid "maybe you should light the fire to keep warm."
 msgstr "也许应该先生一堆火取暖。"
+
+#: script/room.js
+msgid "now the nomads have a place to set up shop, they might stick around a while"
+msgstr "集市一开，商贩们有了落脚之地，或许会长留下来。"
+
+#: script/room.js
+msgid "should cure the meat, or it'll spoil. builder says she can fix something up."
+msgstr "不将药材炼制成丹药，效力便会流失。前辈说可以建个炼丹房。"
+
+#: script/outside.js
+msgid "scattered teeth"
+msgstr "零散的牙齿"
+
+#: script/outside.js
+msgid "tattered cloth"
+msgstr "破损的布料"
+
+#: script/outside.js
+msgid "a crudely made charm"
+msgstr "粗制滥造的护身符"
+
+#: script/room.js
+msgid "not enough cured meat"
+msgstr "金疮药不足"
+
+#: script/room.js
+msgid "not enough bait"
+msgstr "陷阱诱饵不足"
+
+#: script/room.js
+msgid "not enough bullets"
+msgstr "飞镖不足"
+
+#: script/room.js
+msgid "not enough energy cell"
+msgstr "内力不足"
+
+#: script/room.js
+msgid "not enough torch"
+msgstr "火折子不足"
+
+#: script/room.js
+msgid "not enough medicine"
+msgstr "九花玉露丸不足"
+
+#: script/room.js
+msgid "not enough grenade"
+msgstr "降龙十八掌秘籍不足"
+
+#: script/room.js
+msgid "not enough bolas"
+msgstr "缠丝擒拿手秘籍不足"
+
+#: script/room.js
+msgid "not enough bayonet"
+msgstr "倚天剑谱不足"
+
+#: script/room.js
+msgid "not enough bone spear"
+msgstr "青竹棒不足"
+
+#: script/room.js
+msgid "not enough iron sword"
+msgstr "青钢剑不足"
+
+#: script/room.js
+msgid "not enough steel sword"
+msgstr "玄铁重剑不足"
+
+#: script/room.js
+msgid "not enough rifle"
+msgstr "弹指神通秘籍不足"
+
+#: script/room.js
+msgid "not enough laser rifle"
+msgstr "六脉神剑秘籍不足"
+
+#: script/room.js
+msgid "not enough compass"
+msgstr "罗盘不足"
+
+#: script/room.js
+msgid "not enough waterskin"
+msgstr "水囊不足"
+
+#: script/room.js
+msgid "not enough rucksack"
+msgstr "行囊不足"
+
+#: script/room.js
+msgid "not enough wagon"
+msgstr "马车不足"
+
+#: script/room.js
+msgid "not enough convoy"
+msgstr "镖车不足"
+
+#: script/room.js
+msgid "not enough charm"
+msgstr "护身符不足"
+
+#: script/room.js
+msgid "not enough hypo"
+msgstr "黑玉断续膏不足"
+
+#: script/room.js
+msgid "not enough stim"
+msgstr "大还丹不足"
+
+#: script/room.js
+msgid "senior says she can set up mechanism arrays to defend against beasts and foes."
+msgstr "前辈说可以制作机关阵法，防御山中野兽与外敌。"
+
+#: script/room.js
+msgid "another mechanism array is deployed, intruders will not escape its net."
+msgstr "又一座机关阵布下，闯入者将难逃法网。"
+
+#: script/room.js
+msgid "more mechanism arrays won't help now, this place is already impregnable."
+msgstr "再多机关阵也无用了，此地已固若金汤。"
+
+#: script/room.js
+msgid "senior says she can build a wheelbarrow to carry more silver."
+msgstr "前辈说可以打造一辆独轮车，方便运送更多银两。"
+
+#: script/room.js
+msgid "the humble wheelbarrow makes silver transport from the forest much easier."
+msgstr "简陋的独轮车已造好，山林间的银两运输更便捷了。"
+
+#: script/room.js
+msgid "senior says more displaced people have come down the mountain, we can take them as disciples."
+msgstr "前辈说山下来了更多流离之人，可以收为弟子。"
+
+#: script/room.js
+msgid "senior builds a disciple hut on the hillside. word will spread, more will come."
+msgstr "前辈在山腰搭起一间弟子房。消息传开，更多人会慕名而来。"
+
+#: script/room.js
+msgid "no more space on the mountain for disciple huts."
+msgstr "山门已无空地再建弟子房了。"
+
+#: script/room.js
+msgid "disciples can gather herbs in the mountains, given the proper tools."
+msgstr "弟子们可以上山采药，只需给予必要的工具。"
+
+#: script/room.js
+msgid "the herb lodge is built deep in the forest, disciples can identify herbs there."
+msgstr "采药庐建于山林深处，弟子们可在此辨识草药。"
+
+#: script/room.js
+msgid "a marketplace would attract merchants from all directions."
+msgstr "若设集市，四方商贾便会云集于此。"
+
+#: script/room.js
+msgid "with the marketplace open, traveling merchants come and go, some may stay."
+msgstr "集市一开，来往商贩络绎不绝，或许会长留下来。"
+
+#: script/room.js
+msgid "senior says hide is quite useful, she can teach disciples the tanning craft."
+msgstr "前辈说兽皮大有用途，可以教弟子们鞣制之法。"
+
+#: script/room.js
+msgid "the forge workshop is built quickly on the west side, its furnace already burning."
+msgstr "铸造坊很快落成，坐落在山门西侧，炉火已燃。"
+
+#: script/room.js
+msgid "if we don't refine the herbs into medicine, their potency will be lost. senior can build a pill furnace."
+msgstr "不将药材炼制成丹药，效力便会流失。前辈说可以建个炼丹房。"
+
+#: script/room.js
+msgid "the pill refinery is complete, smoke rises from the furnace, the scent of medicine fills the air."
+msgstr "炼丹房建成，丹炉青烟袅袅，药香四溢。"
+
+#: script/room.js
+msgid "senior says with better tools, she could forge divine weapons."
+msgstr "前辈说若有上好工具，便能打造神兵利器。"
+
+#: script/room.js
+msgid "the smithy is finally ready, the anvil set. senior can't wait to start the furnace."
+msgstr "锻造间终于落成，铁砧已安。前辈迫不及待要开炉。"
+
+#: script/room.js
+msgid "senior says the disciples can learn the art of refining, to forge fine steel."
+msgstr "前辈说弟子们可以学习精炼之法，锻出精铁。"
+
+#: script/room.js
+msgid "the refinery furnace blazes skyward, molten iron flows amidst rolling heat."
+msgstr "精炼坊炉火冲天，滚滚热浪之中，铁水奔流。"
+
+#: script/room.js
+msgid "senior says a steady source of throwing darts would give us an edge in the jianghu."
+msgstr "前辈说若有稳定的飞镖来源，行走江湖便多一分保障。"
+
+#: script/room.js
+msgid "the hidden weapons workshop is complete, the art of concealed weapons returns to the jianghu."
+msgstr "暗器坊建成，昔日的暗器之术重现江湖。"
+
+#: script/room.js
+msgid "a fire striker, small but enough to light the way ahead."
+msgstr "一支火折子，虽小却足以照亮前路。"
+
+#: script/room.js
+msgid "with a waterskin, at least you won't go thirsty in the jianghu."
+msgstr "有了水囊，行走江湖至少不愁饮水。"
+
+#: script/room.js
+msgid "the large cask holds more water, enough for long journeys."
+msgstr "大水壶可存更多清水，足以支撑长途跋涉。"
+
+#: script/room.js
+msgid "the water reservoir is complete, the mountain gate will never lack water."
+msgstr "蓄水池建成，从此山门不愁水源。"
+
+#: script/room.js
+msgid "this bamboo staff may not be elegant, but it's a handy weapon for new disciples."
+msgstr "这青竹棒虽不雅致，却是入门弟子趁手之器。"
+
+#: script/room.js
+msgid "with a travel bag, carrying more means traveling farther."
+msgstr "有了行囊，背负更多便可行走更远。"
+
+#: script/room.js
+msgid "the horse cart can carry a great amount of supplies, distant journeys are worry-free."
+msgstr "马车可装载大量物资，远行无忧。"
+
+#: script/room.js
+msgid "the escort convoy stretches far, it can haul almost anything."
+msgstr "镖车队伍浩浩荡荡，几乎可以运走一切。"
+
+#: script/room.js
+msgid "hide may not be the strongest, but it's far better than cloth."
+msgstr "兽皮虽不够坚固，但总比布衣强上许多。"
+
+#: script/room.js
+msgid "iron armour is much stronger than hide, blades will struggle to wound you."
+msgstr "铁甲比皮甲坚固得多，刀剑难伤。"
+
+#: script/room.js
+msgid "fine steel mesh armour, forged from refined iron, light as nothing yet impenetrable."
+msgstr "金丝软甲，精铁铸就，轻若无物却刀枪不入。"
+
+#: script/room.js
+msgid "the green steel sword is razor sharp, a reliable companion in the jianghu."
+msgstr "青钢剑锋锐无匹，江湖行走的可靠之器。"
+
+#: script/room.js
+msgid "the dark steel greatsword, heavy and unadorned. who dares face this blade?"
+msgstr "玄铁重剑，大巧不工。此剑一出，谁与争锋。"
+
+#: script/room.js
+msgid "propelling darts with inner power, hitting targets from afar, like the legendary finger flick technique."
+msgstr "以内力催动飞镖，百步穿杨，如传说中的弹指神通。"

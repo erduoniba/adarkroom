@@ -482,14 +482,28 @@ div.tooltip:hover {
 	margin-bottom: 20px;
 }
 
-/* 按钮区：居中并排 */
+/* 按钮区：居中并排，自动换行 */
 #exitButtons {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	gap: 16px;
+	gap: 8px;
 }
 
 #exitButtons .button {
+	float: none;
+	margin: 0;
+}
+
+/* 购买按钮（交易弹窗中多按钮场景） */
+#buyBtns {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	justify-content: center;
+}
+
+#buyBtns .button {
 	float: none;
 	margin: 0;
 }
